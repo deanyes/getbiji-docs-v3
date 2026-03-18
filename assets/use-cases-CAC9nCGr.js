@@ -155,15 +155,15 @@ const n={frontmatter:{title:"用户案例",hidden:!1,toc:!0,draft:!1},html:`<h1 
 <p>今天最大的价值在于，<strong>解锁了用Get笔记完成图片加文案创作，运用于小红书、小绿书发布</strong>，图文结合效果十分完美。我们先以美食类文案为例讨论学习，后续将解锁更多运用场景。当然，更多的创意和技能有待大家进一步探索、分享。</p>
 <p>全流程的创作步骤如下：</p>
 <p>第一步：在百度图片中随意下载一张美食图片，保存到相册。</p>
-<p><img src="/images/PVjfbK0J9ogTzmxUNrUcdHkVnNb.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/PVjfbK0J9ogTzmxUNrUcdHkVnNb.png" alt=""></p>
 <p>第二步：将下载的美食图片上传到Get笔记。为了让大家充分了解提示词差异，此次文案生成我未添加提示词，笔记根据既定预设要求生成文案，截屏如下：</p>
-<p><img src="/images/EYkvbD8vroIDfbxFs3FcnItunGh.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/EYkvbD8vroIDfbxFs3FcnItunGh.png" alt=""></p>
 <p>倘若此时，我的角色定位<strong>为美食博主、爱做美食的妈妈等人设补充了相应提示词，<strong>按照需求可以生成推广文案了。下面这条截屏是</strong>增加了作为美食博主提示词后</strong>，生成文案可以直接发表：</p>
 <p>再假设我的角色定位是<strong>减脂教练、正在减肥人设</strong>，对提示词进行修改。这样，Get笔记就会按照要求生成适合推广文案内容。你看，里面包含每类食物卡路里都有标明，总的卡路里也计算出来了，是不是完全满足了推广要求？而且，由于在提示词中我提出了补充明星以加强推荐效果的要求，所以在文案中把需要补充的位置预留了出来。</p>
-<p><img src="/images/KPzzbiByNoud1ixknh3c1sKFnvh.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/KPzzbiByNoud1ixknh3c1sKFnvh.png" alt=""></p>
 <p>这三张图文创作时间大约为30秒，完全不受时间、工具、场地限制。也就是说**，无论何时何地，哪怕去卫生间短暂时间，都能完成创作和发布流程。**</p>
 <p>我再分享一个创作思路。我朋友经营着一家牛肉面点店，根据他的实际情况和需求，短短几分钟便分别完成了小红书和微信两个平台的推广文案。当然，还可依据需求或场景的变化，源源不断地生成新文案。我已将这两个文案的截屏放在下方，供你对比查看。</p>
-<p><img src="/images/UUNybaHBXoIWOTxCLMfcUYG9nPb.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/UUNybaHBXoIWOTxCLMfcUYG9nPb.png" alt=""></p>
 <p>当完成图文创作后，猎豹CEO傅盛所说的**"AI实则让诸多事情变得更为容易，它是不断为普通人降低门槛的工具"**这句话，给我带来了巨大的冲击。此前的两次接触，仅仅让我知晓了这一理念，而此次却让我深受触动！</p>
 <p>试想，若你并非久经磨砺的文字高手，也未曾系统学习过产品推广运营设计，那么创作这样高质量的文案对你而言，将是难以跨越的鸿沟。然而**，随着AI的出现，只要我们有思考、有创意、有灵感，它就能帮助我们达成想要表达和创作内容，有了ai人人都可以是创作者。**</p>
 <p>再次强调今天的学习重点**：务必认真对比不同的文案内容，如此你便能更深刻地领会Get笔记能为你带来的价值，激发更多的创作灵感。**</p>
@@ -173,7 +173,7 @@ const n={frontmatter:{title:"用户案例",hidden:!1,toc:!0,draft:!1},html:`<h1 
 <h2 id="基于得到app提问快速写稿"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#基于得到app提问快速写稿"><span class="icon icon-link"></span></a>基于「得到App」提问，快速写稿</h2>
 <p>公众号原文链接：<a href="https://mp.weixin.qq.com/s/5_eIt7e__w16SMCwUwkFng">https://mp.weixin.qq.com/s/5_eIt7e__w16SMCwUwkFng</a></p>
 <p>原创 曹将 曹将 <em>2025年07月14日 20:25 广东</em></p>
-<p><img src="/images/C3PgbmanaoSk1TxbXcPcbLvrn7f.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/C3PgbmanaoSk1TxbXcPcbLvrn7f.png" alt=""></p>
 <p>作者：曹将</p>
 <p>编辑：泽涛</p>
 <h3 id="01"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#01"><span class="icon icon-link"></span></a>01</h3>
@@ -181,7 +181,7 @@ const n={frontmatter:{title:"用户案例",hidden:!1,toc:!0,draft:!1},html:`<h1 
 <p>在隐蔽的地方，它上线了一个让我激动到失眠的功能：「得到 App 」知识库！</p>
 <p>这是什么意思？</p>
 <p>就是说，我提了问题，它就可以基于「得到 App 」 里的课程、电子书和听书内容，给我输出答案。</p>
-<p><img src="/images/EjFbbkfVPoTVybx0u2Cce3fZnMe.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/EjFbbkfVPoTVybx0u2Cce3fZnMe.png" alt=""></p>
 <p><strong>↑ 如何基于「得到 App 」提问</strong></p>
 <p>为什么我会这么激动？</p>
 <p>因为，一个 Ai 效果好不好，核心就在于投喂它的内容质量高不高。而这一次，Get 笔记直接把「得到 App 」的内容变成了内在知识库，输出的品质马上就上了一个台阶！</p>
@@ -190,9 +190,9 @@ const n={frontmatter:{title:"用户案例",hidden:!1,toc:!0,draft:!1},html:`<h1 
 <h3 id="02"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#02"><span class="icon icon-link"></span></a>02</h3>
 <p>比如我最近在梳理一套沟通的基本框架，希望找到一些质量比较高的案例，于是，我就在对话中，请它：从「得到 App 」里，找到相关的案例论据。</p>
 <p>不得不说，质量真的不错！</p>
-<p><img src="/images/QniAbytR4o5wbRx4zJecqzj1nTh.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/QniAbytR4o5wbRx4zJecqzj1nTh.png" alt=""></p>
 <p><strong>↑ 沟通的基本框架</strong></p>
-<p><img src="/images/HkXtbDjguoqaTGxHvFdcemMpnHf.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/HkXtbDjguoqaTGxHvFdcemMpnHf.png" alt=""></p>
 <p><strong>↑ 基于得到内容给出的建议</strong></p>
 <h3 id="03"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#03"><span class="icon icon-link"></span></a>03</h3>
 <p>这个升级还有一个好处，那就是用于「写稿」，特别是写那种「通俗易懂」的稿子。</p>
@@ -200,7 +200,7 @@ const n={frontmatter:{title:"用户案例",hidden:!1,toc:!0,draft:!1},html:`<h1 
 <p>举个例子，明天你被邀请去跟新员工做沟通，请它基于得到内容输出一份发言稿素材。我给的指令是：</p>
 <p>明天我要去跟新员工交流，请围绕「向内探索」和「向上生长」两个维度，基于「得到 app」中的内容，帮我写一篇发言稿。</p>
 <p>大家可以看看出品的内容：</p>
-<p><img src="/images/YpTPbLKFpoCWbYx7jVVceS6JnUb.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/YpTPbLKFpoCWbYx7jVVceS6JnUb.png" alt=""></p>
 <p>不得不说，以下这三点太妙了：</p>
 <p><strong>·</strong> 用微小积累对抗焦虑。</p>
 <p><strong>·</strong> 用灵活适应替代固执。</p>
@@ -209,16 +209,16 @@ const n={frontmatter:{title:"用户案例",hidden:!1,toc:!0,draft:!1},html:`<h1 
 <h3 id="04"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#04"><span class="icon icon-link"></span></a>04</h3>
 <p>其实，这只是 Get 笔记本次升级的一个内容。</p>
 <p>还有一个我特别喜欢，那就是：<strong>笔记内提问。</strong></p>
-<p><img src="/images/L57Fbrrpro9mtkxtVDAcPyZvnCg.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/L57Fbrrpro9mtkxtVDAcPyZvnCg.png" alt=""></p>
 <p>这是什么意思？</p>
 <p>比如某次直播，我被问到一个问题：做好本职工作就好了，为什么还要提升自己？</p>
 <p>当时我感觉自己的回答不是特别好，于是结束后自己又做了一些思考，并用 Get 笔记进行记录。</p>
 <p>记录之后，我发现自己说得有点啰嗦，于是就在笔记内，选择了「AI助手」，并请它基于我的内容，说说：如何理解「我们为什么要提升能力」。</p>
 <p>可以看到：它的总结比我说的更有逻辑。</p>
-<p><img src="/images/MCvvbmELFo5qAxxaXDOckSiPnDg.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/MCvvbmELFo5qAxxaXDOckSiPnDg.png" alt=""></p>
 <p><strong>左：我做的笔记 右：在笔记内提问</strong></p>
 <p>于是，我就把这条「追加到当前笔记」。</p>
-<p><img src="/images/OufGblYm3o9F9UxyiPxcVEKFnIg.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/OufGblYm3o9F9UxyiPxcVEKFnIg.png" alt=""></p>
 <p><strong>↑ 将新笔记追加到了原始笔记后面</strong></p>
 <p>也就是说，当我们记录一条笔记后，就可以顺着这条笔记：</p>
 <p><strong>1.提炼核心内容</strong></p>
@@ -226,9 +226,9 @@ const n={frontmatter:{title:"用户案例",hidden:!1,toc:!0,draft:!1},html:`<h1 
 <p>于是，便形成了知识链条！</p>
 <h3 id="05"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#05"><span class="icon icon-link"></span></a>05</h3>
 <p>当然，它还有一些本来就很厉害的功能，我也附在这里：</p>
-<p><img src="/images/EyXwbzIb8oNkXcxs1fBcPoAYnec.png" alt=""></p>
-<p><img src="/images/LlKUb5qv3ot08SxzeUJcwCjznib.png" alt=""></p>
-<p><img src="/images/U0mqb15m6olTeKxTntgcufOgnCb.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/EyXwbzIb8oNkXcxs1fBcPoAYnec.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/LlKUb5qv3ot08SxzeUJcwCjznib.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/U0mqb15m6olTeKxTntgcufOgnCb.png" alt=""></p>
 <h3 id="06"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#06"><span class="icon icon-link"></span></a>06</h3>
 <p>很多人可能不知道，Get 笔记就是「得到 App 」出品的 AI 工具。</p>
 <p>这次更新最打动我的，不仅是功能的强大，更是得到敢向自己护城河动刀——把核心的知识资产开放给 Get 笔记。于是，答案更可靠，毕竟有严选的内容为基础，输出质量自然更有保障。</p>
@@ -268,7 +268,7 @@ const n={frontmatter:{title:"用户案例",hidden:!1,toc:!0,draft:!1},html:`<h1 
 <p>至此，我们完成了搭建知识库的最关键一步——去给知识库找好东西。</p>
 <p>接下来，我们需要做的，就是选择一个合适的工具来收集和管理这些好东西。说实话，我也试了不少工具，但最终用下来发现，Get笔记目前是我用起来最趁手的一个，无论是文档、网页、公众号文章、录音，甚至是像今天这种线上直播，Get笔记都可以非常便捷地帮你保存下来。</p>
 <p>当我把上面这三类好东西，一股脑儿上传到Get笔记的知识库里之后，我的劳动争议法律知识库就搭建完成了。</p>
-<p><img src="/images/DMFkbWzGCoJ9oRxQkMxcZYAkn9c.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/DMFkbWzGCoJ9oRxQkMxcZYAkn9c.png" alt=""></p>
 <p>好东西+好工具=知识库，怎么样，听起来是不是特别简单？如果你愿意，你现在就可以动手搭建自己的知识库了。</p>
 <p>不过，在这里我还想提醒你一点，知识库搭建完成后，千万不能忽略定期更新知识库里的内容。只有不断地把最新的法律法规、权威案例和专业文章都更新进去，你的知识库才能始终保持"战斗力"。</p>
 <p>有了这些精准投喂的知识，我的知识库就不再是一个只会"泛泛而谈"的聊天机器人了，它变成了一个能查案例、会引法条、还能给出行动建议的"劳动法小助理"。</p>
@@ -569,17 +569,17 @@ const n={frontmatter:{title:"用户案例",hidden:!1,toc:!0,draft:!1},html:`<h1 
 
 第一步：在百度图片中随意下载一张美食图片，保存到相册。
 
-![](/images/PVjfbK0J9ogTzmxUNrUcdHkVnNb.png)
+![](/getbiji-docs-v3/images/PVjfbK0J9ogTzmxUNrUcdHkVnNb.png)
 
 第二步：将下载的美食图片上传到Get笔记。为了让大家充分了解提示词差异，此次文案生成我未添加提示词，笔记根据既定预设要求生成文案，截屏如下：
 
-![](/images/EYkvbD8vroIDfbxFs3FcnItunGh.png)
+![](/getbiji-docs-v3/images/EYkvbD8vroIDfbxFs3FcnItunGh.png)
 
 倘若此时，我的角色定位**为美食博主、爱做美食的妈妈等人设补充了相应提示词，**按照需求可以生成推广文案了。下面这条截屏是**增加了作为美食博主提示词后**，生成文案可以直接发表：
 
 再假设我的角色定位是**减脂教练、正在减肥人设**，对提示词进行修改。这样，Get笔记就会按照要求生成适合推广文案内容。你看，里面包含每类食物卡路里都有标明，总的卡路里也计算出来了，是不是完全满足了推广要求？而且，由于在提示词中我提出了补充明星以加强推荐效果的要求，所以在文案中把需要补充的位置预留了出来。
 
-![](/images/KPzzbiByNoud1ixknh3c1sKFnvh.png)
+![](/getbiji-docs-v3/images/KPzzbiByNoud1ixknh3c1sKFnvh.png)
 
 这三张图文创作时间大约为30秒，完全不受时间、工具、场地限制。也就是说**，无论何时何地，哪怕去卫生间短暂时间，都能完成创作和发布流程。**
 
@@ -587,7 +587,7 @@ const n={frontmatter:{title:"用户案例",hidden:!1,toc:!0,draft:!1},html:`<h1 
 
 我再分享一个创作思路。我朋友经营着一家牛肉面点店，根据他的实际情况和需求，短短几分钟便分别完成了小红书和微信两个平台的推广文案。当然，还可依据需求或场景的变化，源源不断地生成新文案。我已将这两个文案的截屏放在下方，供你对比查看。
 
-![](/images/UUNybaHBXoIWOTxCLMfcUYG9nPb.png)
+![](/getbiji-docs-v3/images/UUNybaHBXoIWOTxCLMfcUYG9nPb.png)
 
 当完成图文创作后，猎豹CEO傅盛所说的**"AI实则让诸多事情变得更为容易，它是不断为普通人降低门槛的工具"**这句话，给我带来了巨大的冲击。此前的两次接触，仅仅让我知晓了这一理念，而此次却让我深受触动！
 
@@ -615,7 +615,7 @@ const n={frontmatter:{title:"用户案例",hidden:!1,toc:!0,draft:!1},html:`<h1 
 
 原创 曹将 曹将 *2025年07月14日 20:25 广东*
 
-![](/images/C3PgbmanaoSk1TxbXcPcbLvrn7f.png)
+![](/getbiji-docs-v3/images/C3PgbmanaoSk1TxbXcPcbLvrn7f.png)
 
 作者：曹将
 
@@ -641,7 +641,7 @@ Get 笔记最近更新了。
 
 
 
-![](/images/EjFbbkfVPoTVybx0u2Cce3fZnMe.png)
+![](/getbiji-docs-v3/images/EjFbbkfVPoTVybx0u2Cce3fZnMe.png)
 
 **↑ 如何基于「得到 App 」提问**
 
@@ -675,11 +675,11 @@ Get 笔记最近更新了。
 
 
 
-![](/images/QniAbytR4o5wbRx4zJecqzj1nTh.png)
+![](/getbiji-docs-v3/images/QniAbytR4o5wbRx4zJecqzj1nTh.png)
 
 **↑ 沟通的基本框架**
 
-![](/images/HkXtbDjguoqaTGxHvFdcemMpnHf.png)
+![](/getbiji-docs-v3/images/HkXtbDjguoqaTGxHvFdcemMpnHf.png)
 
 **↑ 基于得到内容给出的建议**
 
@@ -707,7 +707,7 @@ Get 笔记最近更新了。
 
 大家可以看看出品的内容：
 
-![](/images/YpTPbLKFpoCWbYx7jVVceS6JnUb.png)
+![](/getbiji-docs-v3/images/YpTPbLKFpoCWbYx7jVVceS6JnUb.png)
 
 不得不说，以下这三点太妙了：
 
@@ -734,7 +734,7 @@ Get 笔记最近更新了。
 
 
 
-![](/images/L57Fbrrpro9mtkxtVDAcPyZvnCg.png)
+![](/getbiji-docs-v3/images/L57Fbrrpro9mtkxtVDAcPyZvnCg.png)
 
 
 
@@ -758,7 +758,7 @@ Get 笔记最近更新了。
 
 
 
-![](/images/MCvvbmELFo5qAxxaXDOckSiPnDg.png)
+![](/getbiji-docs-v3/images/MCvvbmELFo5qAxxaXDOckSiPnDg.png)
 
 **左：我做的笔记 右：在笔记内提问**
 
@@ -766,7 +766,7 @@ Get 笔记最近更新了。
 
 于是，我就把这条「追加到当前笔记」。
 
-![](/images/OufGblYm3o9F9UxyiPxcVEKFnIg.png)
+![](/getbiji-docs-v3/images/OufGblYm3o9F9UxyiPxcVEKFnIg.png)
 
 **↑ 将新笔记追加到了原始笔记后面**
 
@@ -789,11 +789,11 @@ Get 笔记最近更新了。
 
 当然，它还有一些本来就很厉害的功能，我也附在这里：
 
-![](/images/EyXwbzIb8oNkXcxs1fBcPoAYnec.png)
+![](/getbiji-docs-v3/images/EyXwbzIb8oNkXcxs1fBcPoAYnec.png)
 
-![](/images/LlKUb5qv3ot08SxzeUJcwCjznib.png)
+![](/getbiji-docs-v3/images/LlKUb5qv3ot08SxzeUJcwCjznib.png)
 
-![](/images/U0mqb15m6olTeKxTntgcufOgnCb.png)
+![](/getbiji-docs-v3/images/U0mqb15m6olTeKxTntgcufOgnCb.png)
 
 
 
@@ -879,7 +879,7 @@ Get 笔记最近更新了。
 
 当我把上面这三类好东西，一股脑儿上传到Get笔记的知识库里之后，我的劳动争议法律知识库就搭建完成了。
 
-![](/images/DMFkbWzGCoJ9oRxQkMxcZYAkn9c.png)
+![](/getbiji-docs-v3/images/DMFkbWzGCoJ9oRxQkMxcZYAkn9c.png)
 
 好东西+好工具=知识库，怎么样，听起来是不是特别简单？如果你愿意，你现在就可以动手搭建自己的知识库了。
 

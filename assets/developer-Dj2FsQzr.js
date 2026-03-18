@@ -39,13 +39,13 @@ const n={frontmatter:{title:"开发者",description:"通过 API 把 Get笔记的
 <h2 id="怎么用"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#怎么用"><span class="icon icon-link"></span></a>怎么用</h2>
 <h3 id="第一步获取-api-配置信息"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第一步获取-api-配置信息"><span class="icon icon-link"></span></a>第一步：获取 API 配置信息</h3>
 <p>打开 <a href="https://www.biji.com/subject">Get笔记知识库网页版</a>，点击顶部的「API 设置」按钮，进入配置页面。</p>
-<p><img src="/images/GYUKbFlMAo83gsxZk2nccbTnn0f.png" alt="知识库网页版顶部导航栏，右侧显示「API 设置」按钮，点击可打开 API 配置页面"></p>
+<p><img src="/getbiji-docs-v3/images/GYUKbFlMAo83gsxZk2nccbTnn0f.png" alt="知识库网页版顶部导航栏，右侧显示「API 设置」按钮，点击可打开 API 配置页面"></p>
 <p>你会看到两个关键参数：</p>
 <ul>
 <li><strong>参数值 1（API Key）</strong>：用于身份验证</li>
 <li><strong>参数值 2（知识库 ID）</strong>：指定要查询的知识库</li>
 </ul>
-<p><img src="/images/XpT8brRgeolr5txpLhZcXZjqneZ.png" alt="API 配置页面，显示两个参数值：参数值1为 API Key（用于认证），参数值2为知识库 ID（用于指定查询的知识库），每个参数旁有复制按钮"></p>
+<p><img src="/getbiji-docs-v3/images/XpT8brRgeolr5txpLhZcXZjqneZ.png" alt="API 配置页面，显示两个参数值：参数值1为 API Key（用于认证），参数值2为知识库 ID（用于指定查询的知识库），每个参数旁有复制按钮"></p>
 <blockquote>
 <p>请妥善保管 API Key，不要提交到公开代码仓库。如怀疑泄露，立即重新生成。</p>
 </blockquote>
@@ -169,7 +169,7 @@ const n={frontmatter:{title:"开发者",description:"通过 API 把 Get笔记的
 <ol>
 <li>进入 Dify「知识库」标签页，点击<strong>外部知识库 API</strong> → <strong>添加外部知识库 API</strong></li>
 </ol>
-<p><img src="/images/QzjpbvqchoLc6ixPA1Cc1tgjnmf.png" alt="Dify 知识库页面，左侧标签栏选中「外部知识库 API」，右上角显示蓝色「添加外部知识库 API」按钮"></p>
+<p><img src="/getbiji-docs-v3/images/QzjpbvqchoLc6ixPA1Cc1tgjnmf.png" alt="Dify 知识库页面，左侧标签栏选中「外部知识库 API」，右上角显示蓝色「添加外部知识库 API」按钮"></p>
 <ol>
 <li>填写配置信息：
 <ul>
@@ -179,52 +179,52 @@ const n={frontmatter:{title:"开发者",description:"通过 API 把 Get笔记的
 </ul>
 </li>
 </ol>
-<p><img src="/images/V3eUbiVQqo3tZaxKvA5cDlFinHc.png" alt="Dify 添加外部知识库 API 表单，包含名称、API Endpoint 和 API Key 三个输入框，底部有取消和保存按钮"></p>
+<p><img src="/getbiji-docs-v3/images/V3eUbiVQqo3tZaxKvA5cDlFinHc.png" alt="Dify 添加外部知识库 API 表单，包含名称、API Endpoint 和 API Key 三个输入框，底部有取消和保存按钮"></p>
 <ol>
 <li>新建外部知识库，选择刚添加的 API，在<strong>外部知识库 ID</strong> 中粘贴参数值 2</li>
 </ol>
-<p><img src="/images/BvhLb0916o4UAAxH40JckpIOnQf.png" alt="Dify 创建外部知识库页面，下拉菜单选择已添加的外部知识库 API，下方输入框填写外部知识库 ID"></p>
+<p><img src="/getbiji-docs-v3/images/BvhLb0916o4UAAxH40JckpIOnQf.png" alt="Dify 创建外部知识库页面，下拉菜单选择已添加的外部知识库 API，下方输入框填写外部知识库 ID"></p>
 <ol>
 <li>测试通过后，就可以在 Dify 的 Agent 中使用这个知识库了</li>
 </ol>
-<p><img src="/images/REmbbLe01oajZixUmaicMyCqn3b.png" alt="Dify 知识库召回测试页面，左侧输入测试问题，右侧显示召回结果和相关内容片段"></p>
+<p><img src="/getbiji-docs-v3/images/REmbbLe01oajZixUmaicMyCqn3b.png" alt="Dify 知识库召回测试页面，左侧输入测试问题，右侧显示召回结果和相关内容片段"></p>
 <h4 id="在扣子中使用"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#在扣子中使用"><span class="icon icon-link"></span></a>在扣子中使用</h4>
 <p>Get笔记知识库已上架<a href="https://www.coze.cn/store/agent?cate_type=recommend">扣子插件商店</a>，搜索「Get笔记知识库」即可找到。目前提供召回能力，可配合模型做进一步处理。</p>
-<p><img src="/images/Qg8Fb4uyCoHVa5xV7ZnchC5an4d.png" alt="扣子插件商店搜索结果页面，显示「Get笔记知识库」插件卡片，包含插件图标、名称和简介"></p>
+<p><img src="/getbiji-docs-v3/images/Qg8Fb4uyCoHVa5xV7ZnchC5an4d.png" alt="扣子插件商店搜索结果页面，显示「Get笔记知识库」插件卡片，包含插件图标、名称和简介"></p>
 <p><strong>方式一：在工作流中使用</strong></p>
 <ol>
 <li>进入<a href="https://www.coze.cn/work_flow">扣子工作流</a>，创建新工作流，添加「开始」节点并设置输入参数（如 Question）</li>
 </ol>
-<p><img src="/images/C5CTbGoPdotA2CxLIQgcTOXXnQg.png" alt="扣子工作流编辑器，左侧为「开始」节点配置面板，添加了一个名为 Question 的字符串输入参数"></p>
+<p><img src="/getbiji-docs-v3/images/C5CTbGoPdotA2CxLIQgcTOXXnQg.png" alt="扣子工作流编辑器，左侧为「开始」节点配置面板，添加了一个名为 Question 的字符串输入参数"></p>
 <ol>
 <li>添加节点，搜索「Get笔记知识库」插件，选择 <strong>getnote_knowledge_recall</strong> 工具</li>
 </ol>
-<p><img src="/images/PNPkbYhypoRkpUx3sL6cf1bhnid.png" alt="扣子工作流添加节点面板，搜索框输入「Get笔记知识库」，搜索结果显示两个工具，第二个为 getnote_knowledge_recall"></p>
+<p><img src="/getbiji-docs-v3/images/PNPkbYhypoRkpUx3sL6cf1bhnid.png" alt="扣子工作流添加节点面板，搜索框输入「Get笔记知识库」，搜索结果显示两个工具，第二个为 getnote_knowledge_recall"></p>
 <ol>
 <li>配置参数：<strong>question</strong> 关联开始节点的输入、<strong>Authorization</strong> 填参数值 1、<strong>topic_id</strong> 填参数值 2</li>
 </ol>
-<p><img src="/images/QgFBbngvSoXEYUx2Ff6cF8LynSb.png" alt="扣子工作流 getnote_knowledge_recall 节点配置面板，显示 question、Authorization、topic_id、top_k 等参数输入框"></p>
+<p><img src="/getbiji-docs-v3/images/QgFBbngvSoXEYUx2Ff6cF8LynSb.png" alt="扣子工作流 getnote_knowledge_recall 节点配置面板，显示 question、Authorization、topic_id、top_k 等参数输入框"></p>
 <ol>
 <li>后续可接模型节点或输出节点，完成工作流搭建</li>
 </ol>
-<p><img src="/images/DM80b3b9SoXBi7x7TSqcB7EUnnc.png" alt="扣子完整工作流示例，从开始节点到 Get笔记知识库召回节点，再到大模型处理节点，最后到结束输出节点"></p>
+<p><img src="/getbiji-docs-v3/images/DM80b3b9SoXBi7x7TSqcB7EUnnc.png" alt="扣子完整工作流示例，从开始节点到 Get笔记知识库召回节点，再到大模型处理节点，最后到结束输出节点"></p>
 <p><strong>方式二：在 Agent 中直接使用插件</strong></p>
 <ol>
 <li>新建 Agent，在「编排」标签页点击「添加插件」</li>
 </ol>
-<p><img src="/images/K5A8bmw0KowEPLxuiWUcwGI3nhc.png" alt="扣子 Agent 编排页面，左侧显示编排配置区域，技能区域有「添加插件」按钮"></p>
+<p><img src="/getbiji-docs-v3/images/K5A8bmw0KowEPLxuiWUcwGI3nhc.png" alt="扣子 Agent 编排页面，左侧显示编排配置区域，技能区域有「添加插件」按钮"></p>
 <ol>
 <li>搜索「Get笔记知识库」，选择 <strong>getnote_knowledge_recall</strong> 工具</li>
 </ol>
-<p><img src="/images/TpxsbGxIGoG4GAx3p2SchcOvn6r.png" alt="扣子插件搜索弹窗，输入「Get笔记知识库」后显示搜索结果，列出可用的知识库工具"></p>
+<p><img src="/getbiji-docs-v3/images/TpxsbGxIGoG4GAx3p2SchcOvn6r.png" alt="扣子插件搜索弹窗，输入「Get笔记知识库」后显示搜索结果，列出可用的知识库工具"></p>
 <ol>
 <li>配置 <strong>Authorization</strong>（参数值 1）和 <strong>topic_id</strong>（参数值 2，需加 Bearer 前缀）</li>
 </ol>
-<p><img src="/images/IBvRbay9QoXsxXxXenmcKy6unEg.png" alt="扣子 Agent 插件参数配置面板，显示 Authorization 和 topic_id 两个输入框，需要填入对应的 API 参数值"></p>
+<p><img src="/getbiji-docs-v3/images/IBvRbay9QoXsxXxXenmcKy6unEg.png" alt="扣子 Agent 插件参数配置面板，显示 Authorization 和 topic_id 两个输入框，需要填入对应的 API 参数值"></p>
 <blockquote>
 <p>填完两个参数后，<strong>必须把参数开关切到关闭状态</strong>（点击滑块按钮），否则每次调用时会要求用户手动输入。</p>
 </blockquote>
-<p><img src="/images/PQkCbP42XoROCuxRUJJc7EWTnhg.png" alt="扣子 Agent 插件参数配置完成状态，Authorization 和 topic_id 旁边的开关滑块已切换到关闭（灰色）状态"></p>
+<p><img src="/getbiji-docs-v3/images/PQkCbP42XoROCuxRUJJc7EWTnhg.png" alt="扣子 Agent 插件参数配置完成状态，Authorization 和 topic_id 旁边的开关滑块已切换到关闭（灰色）状态"></p>
 <h2 id="小技巧"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#小技巧"><span class="icon icon-link"></span></a>小技巧</h2>
 <ul>
 <li><strong>先用网页版测试</strong>：在知识库网页版直接提问，确认效果满意后再接入 API</li>
@@ -234,7 +234,7 @@ const n={frontmatter:{title:"开发者",description:"通过 API 把 Get笔记的
 </ul>
 <h2 id="需要帮助"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#需要帮助"><span class="icon icon-link"></span></a>需要帮助？</h2>
 <p>扫码加入官方交流群，与其他开发者交流：</p>
-<p><img src="/images/NvqGbWNRxo44nxx9UbBclhsZnEb.png" alt="Get笔记官方交流群二维码，微信扫码即可加入"></p>`,headings:[{depth:2,text:"是什么",id:"是什么"},{depth:2,text:"怎么用",id:"怎么用"},{depth:3,text:"第一步：获取 API 配置信息",id:"第一步获取-api-配置信息"},{depth:3,text:"第二步：调用 API",id:"第二步调用-api"},{depth:3,text:"第三步：选择接入方式",id:"第三步选择接入方式"},{depth:4,text:"在 Dify 中使用",id:"在-dify-中使用"},{depth:4,text:"在扣子中使用",id:"在扣子中使用"},{depth:2,text:"小技巧",id:"小技巧"},{depth:2,text:"需要帮助？",id:"需要帮助"}],raw:`
+<p><img src="/getbiji-docs-v3/images/NvqGbWNRxo44nxx9UbBclhsZnEb.png" alt="Get笔记官方交流群二维码，微信扫码即可加入"></p>`,headings:[{depth:2,text:"是什么",id:"是什么"},{depth:2,text:"怎么用",id:"怎么用"},{depth:3,text:"第一步：获取 API 配置信息",id:"第一步获取-api-配置信息"},{depth:3,text:"第二步：调用 API",id:"第二步调用-api"},{depth:3,text:"第三步：选择接入方式",id:"第三步选择接入方式"},{depth:4,text:"在 Dify 中使用",id:"在-dify-中使用"},{depth:4,text:"在扣子中使用",id:"在扣子中使用"},{depth:2,text:"小技巧",id:"小技巧"},{depth:2,text:"需要帮助？",id:"需要帮助"}],raw:`
 # 开发者
 
 Get笔记提供开放 API，让你把知识库的 AI 搜索和召回能力接入自己的应用。不管你是做聊天机器人、内部知识助手，还是搭配 Dify、扣子等平台使用，都可以快速接入。
@@ -262,14 +262,14 @@ Get笔记 OpenAPI 提供两个核心能力：
 
 打开 [Get笔记知识库网页版](https://www.biji.com/subject)，点击顶部的「API 设置」按钮，进入配置页面。
 
-![知识库网页版顶部导航栏，右侧显示「API 设置」按钮，点击可打开 API 配置页面](/images/GYUKbFlMAo83gsxZk2nccbTnn0f.png)
+![知识库网页版顶部导航栏，右侧显示「API 设置」按钮，点击可打开 API 配置页面](/getbiji-docs-v3/images/GYUKbFlMAo83gsxZk2nccbTnn0f.png)
 
 你会看到两个关键参数：
 
 - **参数值 1（API Key）**：用于身份验证
 - **参数值 2（知识库 ID）**：指定要查询的知识库
 
-![API 配置页面，显示两个参数值：参数值1为 API Key（用于认证），参数值2为知识库 ID（用于指定查询的知识库），每个参数旁有复制按钮](/images/XpT8brRgeolr5txpLhZcXZjqneZ.png)
+![API 配置页面，显示两个参数值：参数值1为 API Key（用于认证），参数值2为知识库 ID（用于指定查询的知识库），每个参数旁有复制按钮](/getbiji-docs-v3/images/XpT8brRgeolr5txpLhZcXZjqneZ.png)
 
 > 请妥善保管 API Key，不要提交到公开代码仓库。如怀疑泄露，立即重新生成。
 
@@ -343,64 +343,64 @@ curl -X POST https://open-api.biji.com/getnote/openapi/knowledge/search/recall \
 
 1. 进入 Dify「知识库」标签页，点击**外部知识库 API** → **添加外部知识库 API**
 
-![Dify 知识库页面，左侧标签栏选中「外部知识库 API」，右上角显示蓝色「添加外部知识库 API」按钮](/images/QzjpbvqchoLc6ixPA1Cc1tgjnmf.png)
+![Dify 知识库页面，左侧标签栏选中「外部知识库 API」，右上角显示蓝色「添加外部知识库 API」按钮](/getbiji-docs-v3/images/QzjpbvqchoLc6ixPA1Cc1tgjnmf.png)
 
 2. 填写配置信息：
    - **名称**：建议填「XXX 的 Get笔记知识库」
    - **API Endpoint**：\`https://open-api.biji.com/getnote/openapi/knowledge/dify\`
    - **API Key**：粘贴你的参数值 1
 
-![Dify 添加外部知识库 API 表单，包含名称、API Endpoint 和 API Key 三个输入框，底部有取消和保存按钮](/images/V3eUbiVQqo3tZaxKvA5cDlFinHc.png)
+![Dify 添加外部知识库 API 表单，包含名称、API Endpoint 和 API Key 三个输入框，底部有取消和保存按钮](/getbiji-docs-v3/images/V3eUbiVQqo3tZaxKvA5cDlFinHc.png)
 
 3. 新建外部知识库，选择刚添加的 API，在**外部知识库 ID** 中粘贴参数值 2
 
-![Dify 创建外部知识库页面，下拉菜单选择已添加的外部知识库 API，下方输入框填写外部知识库 ID](/images/BvhLb0916o4UAAxH40JckpIOnQf.png)
+![Dify 创建外部知识库页面，下拉菜单选择已添加的外部知识库 API，下方输入框填写外部知识库 ID](/getbiji-docs-v3/images/BvhLb0916o4UAAxH40JckpIOnQf.png)
 
 4. 测试通过后，就可以在 Dify 的 Agent 中使用这个知识库了
 
-![Dify 知识库召回测试页面，左侧输入测试问题，右侧显示召回结果和相关内容片段](/images/REmbbLe01oajZixUmaicMyCqn3b.png)
+![Dify 知识库召回测试页面，左侧输入测试问题，右侧显示召回结果和相关内容片段](/getbiji-docs-v3/images/REmbbLe01oajZixUmaicMyCqn3b.png)
 
 #### 在扣子中使用
 
 Get笔记知识库已上架[扣子插件商店](https://www.coze.cn/store/agent?cate_type=recommend)，搜索「Get笔记知识库」即可找到。目前提供召回能力，可配合模型做进一步处理。
 
-![扣子插件商店搜索结果页面，显示「Get笔记知识库」插件卡片，包含插件图标、名称和简介](/images/Qg8Fb4uyCoHVa5xV7ZnchC5an4d.png)
+![扣子插件商店搜索结果页面，显示「Get笔记知识库」插件卡片，包含插件图标、名称和简介](/getbiji-docs-v3/images/Qg8Fb4uyCoHVa5xV7ZnchC5an4d.png)
 
 **方式一：在工作流中使用**
 
 1. 进入[扣子工作流](https://www.coze.cn/work_flow)，创建新工作流，添加「开始」节点并设置输入参数（如 Question）
 
-![扣子工作流编辑器，左侧为「开始」节点配置面板，添加了一个名为 Question 的字符串输入参数](/images/C5CTbGoPdotA2CxLIQgcTOXXnQg.png)
+![扣子工作流编辑器，左侧为「开始」节点配置面板，添加了一个名为 Question 的字符串输入参数](/getbiji-docs-v3/images/C5CTbGoPdotA2CxLIQgcTOXXnQg.png)
 
 2. 添加节点，搜索「Get笔记知识库」插件，选择 **getnote_knowledge_recall** 工具
 
-![扣子工作流添加节点面板，搜索框输入「Get笔记知识库」，搜索结果显示两个工具，第二个为 getnote_knowledge_recall](/images/PNPkbYhypoRkpUx3sL6cf1bhnid.png)
+![扣子工作流添加节点面板，搜索框输入「Get笔记知识库」，搜索结果显示两个工具，第二个为 getnote_knowledge_recall](/getbiji-docs-v3/images/PNPkbYhypoRkpUx3sL6cf1bhnid.png)
 
 3. 配置参数：**question** 关联开始节点的输入、**Authorization** 填参数值 1、**topic_id** 填参数值 2
 
-![扣子工作流 getnote_knowledge_recall 节点配置面板，显示 question、Authorization、topic_id、top_k 等参数输入框](/images/QgFBbngvSoXEYUx2Ff6cF8LynSb.png)
+![扣子工作流 getnote_knowledge_recall 节点配置面板，显示 question、Authorization、topic_id、top_k 等参数输入框](/getbiji-docs-v3/images/QgFBbngvSoXEYUx2Ff6cF8LynSb.png)
 
 4. 后续可接模型节点或输出节点，完成工作流搭建
 
-![扣子完整工作流示例，从开始节点到 Get笔记知识库召回节点，再到大模型处理节点，最后到结束输出节点](/images/DM80b3b9SoXBi7x7TSqcB7EUnnc.png)
+![扣子完整工作流示例，从开始节点到 Get笔记知识库召回节点，再到大模型处理节点，最后到结束输出节点](/getbiji-docs-v3/images/DM80b3b9SoXBi7x7TSqcB7EUnnc.png)
 
 **方式二：在 Agent 中直接使用插件**
 
 1. 新建 Agent，在「编排」标签页点击「添加插件」
 
-![扣子 Agent 编排页面，左侧显示编排配置区域，技能区域有「添加插件」按钮](/images/K5A8bmw0KowEPLxuiWUcwGI3nhc.png)
+![扣子 Agent 编排页面，左侧显示编排配置区域，技能区域有「添加插件」按钮](/getbiji-docs-v3/images/K5A8bmw0KowEPLxuiWUcwGI3nhc.png)
 
 2. 搜索「Get笔记知识库」，选择 **getnote_knowledge_recall** 工具
 
-![扣子插件搜索弹窗，输入「Get笔记知识库」后显示搜索结果，列出可用的知识库工具](/images/TpxsbGxIGoG4GAx3p2SchcOvn6r.png)
+![扣子插件搜索弹窗，输入「Get笔记知识库」后显示搜索结果，列出可用的知识库工具](/getbiji-docs-v3/images/TpxsbGxIGoG4GAx3p2SchcOvn6r.png)
 
 3. 配置 **Authorization**（参数值 1）和 **topic_id**（参数值 2，需加 Bearer 前缀）
 
-![扣子 Agent 插件参数配置面板，显示 Authorization 和 topic_id 两个输入框，需要填入对应的 API 参数值](/images/IBvRbay9QoXsxXxXenmcKy6unEg.png)
+![扣子 Agent 插件参数配置面板，显示 Authorization 和 topic_id 两个输入框，需要填入对应的 API 参数值](/getbiji-docs-v3/images/IBvRbay9QoXsxXxXenmcKy6unEg.png)
 
 > 填完两个参数后，**必须把参数开关切到关闭状态**（点击滑块按钮），否则每次调用时会要求用户手动输入。
 
-![扣子 Agent 插件参数配置完成状态，Authorization 和 topic_id 旁边的开关滑块已切换到关闭（灰色）状态](/images/PQkCbP42XoROCuxRUJJc7EWTnhg.png)
+![扣子 Agent 插件参数配置完成状态，Authorization 和 topic_id 旁边的开关滑块已切换到关闭（灰色）状态](/getbiji-docs-v3/images/PQkCbP42XoROCuxRUJJc7EWTnhg.png)
 
 ## 小技巧
 
@@ -413,5 +413,5 @@ Get笔记知识库已上架[扣子插件商店](https://www.coze.cn/store/agent?
 
 扫码加入官方交流群，与其他开发者交流：
 
-![Get笔记官方交流群二维码，微信扫码即可加入](/images/NvqGbWNRxo44nxx9UbBclhsZnEb.png)
+![Get笔记官方交流群二维码，微信扫码即可加入](/getbiji-docs-v3/images/NvqGbWNRxo44nxx9UbBclhsZnEb.png)
 `};export{n as default};

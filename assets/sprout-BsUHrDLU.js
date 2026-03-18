@@ -48,19 +48,19 @@ const n={frontmatter:{title:"笔记发芽",description:"AI 深度理解你的录
 <h2 id="怎么用"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#怎么用"><span class="icon icon-link"></span></a>怎么用</h2>
 <h3 id="第一步进入录音卡详情页"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第一步进入录音卡详情页"><span class="icon icon-link"></span></a>第一步：进入录音卡详情页</h3>
 <p>打开 Get笔记 App，首页点击「GetSeed 录音卡」进入录音卡详情页。顶部会展示发芽区域。</p>
-<p><img src="/images/DjkIb888joPRP7xjk4tcgCkKnLe.png" alt="GetSeed 录音卡详情页顶部，显示发芽区域和剩余种子数量，底部有「发芽」按钮"></p>
+<p><img src="/getbiji-docs-v3/images/DjkIb888joPRP7xjk4tcgCkKnLe.png" alt="GetSeed 录音卡详情页顶部，显示发芽区域和剩余种子数量，底部有「发芽」按钮"></p>
 <h3 id="第二步点击发芽生成报告"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第二步点击发芽生成报告"><span class="icon icon-link"></span></a>第二步：点击「发芽」生成报告</h3>
 <p>点击「发芽」按钮，AI 会基于你的新录音笔记生成发芽报告。</p>
-<p><img src="/images/EtrrbDaNjo4Xzyxnt1JcL6lAn6f.png" alt="点击「发芽」按钮后的加载页面，提示正在生成发芽报告，预计 3-5 分钟"></p>
-<p><img src="/images/EvmHbdv6zoijoZxT9BjcakwEnGg.png" alt="发芽报告生成完成，展示跨领域的思想关联和延伸内容"></p>
+<p><img src="/getbiji-docs-v3/images/EtrrbDaNjo4Xzyxnt1JcL6lAn6f.png" alt="点击「发芽」按钮后的加载页面，提示正在生成发芽报告，预计 3-5 分钟"></p>
+<p><img src="/getbiji-docs-v3/images/EvmHbdv6zoijoZxT9BjcakwEnGg.png" alt="发芽报告生成完成，展示跨领域的思想关联和延伸内容"></p>
 <h3 id="第三步查看发芽报告"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第三步查看发芽报告"><span class="icon icon-link"></span></a>第三步：查看发芽报告</h3>
 <p>点击右上角「发芽报告」，进入报告列表页查看所有报告详情。</p>
-<p><img src="/images/NyhIbA8dCoGyvSxQSSkcGZ2Qn2f.png" alt="发芽报告列表页，展示历史生成的所有报告，按时间倒序排列"></p>
-<p><img src="/images/Wxrsb4g3AowqcFxDI3JcZvhunjf.png" alt="发芽报告详情页，展示 AI 基于录音内容生成的跨学科关联分析"></p>
+<p><img src="/getbiji-docs-v3/images/NyhIbA8dCoGyvSxQSSkcGZ2Qn2f.png" alt="发芽报告列表页，展示历史生成的所有报告，按时间倒序排列"></p>
+<p><img src="/getbiji-docs-v3/images/Wxrsb4g3AowqcFxDI3JcZvhunjf.png" alt="发芽报告详情页，展示 AI 基于录音内容生成的跨学科关联分析"></p>
 <h3 id="第四步单条笔记发芽可选"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第四步单条笔记发芽可选"><span class="icon icon-link"></span></a>第四步：单条笔记发芽（可选）</h3>
 <p>每条录音卡笔记也可以单独发芽。在笔记的「...」更多操作里，点击「笔记发芽」，针对这一条笔记生成专属的发芽报告。</p>
-<p><img src="/images/Oi4xbbviaod7G8xMzHWcKPnqneR.png" alt="笔记详情页的更多操作菜单，展示「笔记发芽」选项"></p>
-<p><img src="/images/Iuo8bqwbvoXHt3xrZUHc9GzVnKe.png" alt="单条笔记的发芽报告，针对特定笔记内容生成聚焦的关联分析"></p>
+<p><img src="/getbiji-docs-v3/images/Oi4xbbviaod7G8xMzHWcKPnqneR.png" alt="笔记详情页的更多操作菜单，展示「笔记发芽」选项"></p>
+<p><img src="/getbiji-docs-v3/images/Iuo8bqwbvoXHt3xrZUHc9GzVnKe.png" alt="单条笔记的发芽报告，针对特定笔记内容生成聚焦的关联分析"></p>
 <hr>
 <h2 id="使用规则"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#使用规则"><span class="icon icon-link"></span></a>使用规则</h2>
 <table>
@@ -138,31 +138,31 @@ const n={frontmatter:{title:"笔记发芽",description:"AI 深度理解你的录
 
 打开 Get笔记 App，首页点击「GetSeed 录音卡」进入录音卡详情页。顶部会展示发芽区域。
 
-![GetSeed 录音卡详情页顶部，显示发芽区域和剩余种子数量，底部有「发芽」按钮](/images/DjkIb888joPRP7xjk4tcgCkKnLe.png)
+![GetSeed 录音卡详情页顶部，显示发芽区域和剩余种子数量，底部有「发芽」按钮](/getbiji-docs-v3/images/DjkIb888joPRP7xjk4tcgCkKnLe.png)
 
 ### 第二步：点击「发芽」生成报告
 
 点击「发芽」按钮，AI 会基于你的新录音笔记生成发芽报告。
 
-![点击「发芽」按钮后的加载页面，提示正在生成发芽报告，预计 3-5 分钟](/images/EtrrbDaNjo4Xzyxnt1JcL6lAn6f.png)
+![点击「发芽」按钮后的加载页面，提示正在生成发芽报告，预计 3-5 分钟](/getbiji-docs-v3/images/EtrrbDaNjo4Xzyxnt1JcL6lAn6f.png)
 
-![发芽报告生成完成，展示跨领域的思想关联和延伸内容](/images/EvmHbdv6zoijoZxT9BjcakwEnGg.png)
+![发芽报告生成完成，展示跨领域的思想关联和延伸内容](/getbiji-docs-v3/images/EvmHbdv6zoijoZxT9BjcakwEnGg.png)
 
 ### 第三步：查看发芽报告
 
 点击右上角「发芽报告」，进入报告列表页查看所有报告详情。
 
-![发芽报告列表页，展示历史生成的所有报告，按时间倒序排列](/images/NyhIbA8dCoGyvSxQSSkcGZ2Qn2f.png)
+![发芽报告列表页，展示历史生成的所有报告，按时间倒序排列](/getbiji-docs-v3/images/NyhIbA8dCoGyvSxQSSkcGZ2Qn2f.png)
 
-![发芽报告详情页，展示 AI 基于录音内容生成的跨学科关联分析](/images/Wxrsb4g3AowqcFxDI3JcZvhunjf.png)
+![发芽报告详情页，展示 AI 基于录音内容生成的跨学科关联分析](/getbiji-docs-v3/images/Wxrsb4g3AowqcFxDI3JcZvhunjf.png)
 
 ### 第四步：单条笔记发芽（可选）
 
 每条录音卡笔记也可以单独发芽。在笔记的「...」更多操作里，点击「笔记发芽」，针对这一条笔记生成专属的发芽报告。
 
-![笔记详情页的更多操作菜单，展示「笔记发芽」选项](/images/Oi4xbbviaod7G8xMzHWcKPnqneR.png)
+![笔记详情页的更多操作菜单，展示「笔记发芽」选项](/getbiji-docs-v3/images/Oi4xbbviaod7G8xMzHWcKPnqneR.png)
 
-![单条笔记的发芽报告，针对特定笔记内容生成聚焦的关联分析](/images/Iuo8bqwbvoXHt3xrZUHc9GzVnKe.png)
+![单条笔记的发芽报告，针对特定笔记内容生成聚焦的关联分析](/getbiji-docs-v3/images/Iuo8bqwbvoXHt3xrZUHc9GzVnKe.png)
 
 ---
 

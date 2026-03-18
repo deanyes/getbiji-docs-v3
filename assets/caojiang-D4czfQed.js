@@ -1,13 +1,13 @@
 const n={frontmatter:{title:"曹将：看完罗振宇跨年演讲，种草了一个软件",hidden:!1,toc:!0,draft:!1},html:`<h1 id="看完罗振宇跨年演讲种草了一个软件"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#看完罗振宇跨年演讲种草了一个软件"><span class="icon icon-link"></span></a>看完罗振宇跨年演讲，种草了一个软件</h1>
 <p>公众号原文链接：<a href="https://mp.weixin.qq.com/s/6UIEPP_vhH2ik41SA8QJ8Q">https://mp.weixin.qq.com/s/6UIEPP_vhH2ik41SA8QJ8Q</a></p>
 <p>原创 曹将 曹将 <em>2025年01月01日 01:47</em> <em>广东</em></p>
-<p><img src="/images/YODmb0J96ojeTtxI02kc4Y5Cnqh.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/YODmb0J96ojeTtxI02kc4Y5Cnqh.png" alt=""></p>
 <p>写这篇文章的时间是 2025 年 1 月 1 日的 1 点 20 分。</p>
 <p>刚看完罗振宇的跨年演讲直播，有点困，也有点兴奋：因为收获了一个不错的软件，叫做「<strong>Get笔记</strong>」。</p>
 <p>在演讲结束后的接近一个小时里，我一直在研究它，里面有很多实用的功能。</p>
 <p><strong>01</strong></p>
 <p>对于经常阅读纸质书的小伙伴，可以用这个软件拍下内容，它就会保存页面，并借助 AI 整理出核心内容，如下图：</p>
-<p><img src="/images/ZG9SbFkouozqjlx2fK8ccafGnNh.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/ZG9SbFkouozqjlx2fK8ccafGnNh.png" alt=""></p>
 <p>如果后期还想补充，我们可以通过「追加笔记」添加文字、图片、甚至是文章链接，这样知识就连成了线。</p>
 <p><strong>02</strong></p>
 <p>对于经常需要整理灵感的小伙伴，可以用它直接录音，它会保存声音、识别文字，然后进行 AI 润色，如下图：</p>
@@ -34,7 +34,7 @@ const n={frontmatter:{title:"曹将：看完罗振宇跨年演讲，种草了一
 
 原创 曹将 曹将 *2025年01月01日 01:47* *广东*
 
-![](/images/YODmb0J96ojeTtxI02kc4Y5Cnqh.png)
+![](/getbiji-docs-v3/images/YODmb0J96ojeTtxI02kc4Y5Cnqh.png)
 
 
 
@@ -58,7 +58,7 @@ const n={frontmatter:{title:"曹将：看完罗振宇跨年演讲，种草了一
 
 
 
-![](/images/ZG9SbFkouozqjlx2fK8ccafGnNh.png)
+![](/getbiji-docs-v3/images/ZG9SbFkouozqjlx2fK8ccafGnNh.png)
 
 
 

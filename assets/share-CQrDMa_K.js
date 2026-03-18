@@ -30,47 +30,47 @@ const n={frontmatter:{title:"分享和团队管理",description:"将知识库公
 <p>让任何拿到链接的人都能访问你的知识库。</p>
 <h4 id="app-端"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#app-端"><span class="icon icon-link"></span></a>App 端</h4>
 <p><strong>第一步：在知识库内，点击右上角分享按钮</strong></p>
-<p><img src="/images/QHofb2B0po5eFwxV3jccsPeZnkc.png" alt="知识库详情页，右上角显示分享图标按钮，点击进入分享设置"></p>
+<p><img src="/getbiji-docs-v3/images/QHofb2B0po5eFwxV3jccsPeZnkc.png" alt="知识库详情页，右上角显示分享图标按钮，点击进入分享设置"></p>
 <p><strong>第二步：选择「公开」</strong></p>
-<p><img src="/images/KD5zb6DfYoit77xs2bLcXD37nAg.png" alt="分享设置页面，顶部三个选项切换：私密、公开、团队可见，当前选中「公开」"></p>
+<p><img src="/getbiji-docs-v3/images/KD5zb6DfYoit77xs2bLcXD37nAg.png" alt="分享设置页面，顶部三个选项切换：私密、公开、团队可见，当前选中「公开」"></p>
 <p><strong>第三步：选择分享方式</strong></p>
 <p>可以通过微信好友、朋友圈、分享海报、复制链接等方式分享出去。</p>
-<p><img src="/images/D3SYbrjKBohUChxiiv9c6C8znGd.png" alt="公开分享页面，下方显示分享方式：微信好友、朋友圈、分享海报、复制链接等"></p>
-<p><img src="/images/Q51RbOJRIoWBKTxDrVecld1inWf.png" alt="分享海报预览页面，显示知识库名称和二维码，可保存到手机相册"></p>
+<p><img src="/getbiji-docs-v3/images/D3SYbrjKBohUChxiiv9c6C8znGd.png" alt="公开分享页面，下方显示分享方式：微信好友、朋友圈、分享海报、复制链接等"></p>
+<p><img src="/getbiji-docs-v3/images/Q51RbOJRIoWBKTxDrVecld1inWf.png" alt="分享海报预览页面，显示知识库名称和二维码，可保存到手机相册"></p>
 <p>别人打开链接后，可以直接进入知识库浏览、搜索和使用 AI 问答。</p>
-<p><img src="/images/VwGnbLgxroJr8qxNOZUcY06Mnsd.png" alt="他人通过链接访问的知识库页面，可浏览内容、搜索和使用 AI 功能"></p>
+<p><img src="/getbiji-docs-v3/images/VwGnbLgxroJr8qxNOZUcY06Mnsd.png" alt="他人通过链接访问的知识库页面，可浏览内容、搜索和使用 AI 功能"></p>
 <h4 id="网页端"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#网页端"><span class="icon icon-link"></span></a>网页端</h4>
 <p>进入知识库，点击右上角「分享」按钮，选择「公开」后复制链接即可。</p>
-<p><img src="/images/Y5OpbZny5opHxrxArMRcXRrdnwg.png" alt="网页端分享设置弹窗，可切换私密/公开/团队模式，公开模式下显示分享链接可复制"></p>
+<p><img src="/getbiji-docs-v3/images/Y5OpbZny5opHxrxArMRcXRrdnwg.png" alt="网页端分享设置弹窗，可切换私密/公开/团队模式，公开模式下显示分享链接可复制"></p>
 <h4 id="小程序端"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#小程序端"><span class="icon icon-link"></span></a>小程序端</h4>
 <p>在小程序中同样可以分享：进入知识库，点击右上角分享按钮，选择「公开」后通过微信分享。</p>
-<p><img src="/images/YsAWb8XVOoSHALxfwLncVCOfnTe.png" alt="小程序端知识库页面，点击右上角分享按钮进入分享设置"></p>
-<p><img src="/images/ZyO9bMXn9os3taxaU9PcEuO5nRh.png" alt="小程序分享设置页面，切换为「公开」模式"></p>
-<p><img src="/images/OpyVb6LKqoDos8xQOiycR6P0nfe.png" alt="小程序公开分享页面，底部显示分享到微信好友、朋友圈等方式"></p>
-<p><img src="/images/Y0PYbEQYtohVg7xTMQJc1k19nEe.png" alt="分享海报预览，包含知识库封面和小程序码"></p>
-<p><img src="/images/Pb3Db8L16oEhRnxkOwDcQWn0nQf.png" alt="分享完成后他人收到的小程序卡片预览"></p>
+<p><img src="/getbiji-docs-v3/images/YsAWb8XVOoSHALxfwLncVCOfnTe.png" alt="小程序端知识库页面，点击右上角分享按钮进入分享设置"></p>
+<p><img src="/getbiji-docs-v3/images/ZyO9bMXn9os3taxaU9PcEuO5nRh.png" alt="小程序分享设置页面，切换为「公开」模式"></p>
+<p><img src="/getbiji-docs-v3/images/OpyVb6LKqoDos8xQOiycR6P0nfe.png" alt="小程序公开分享页面，底部显示分享到微信好友、朋友圈等方式"></p>
+<p><img src="/getbiji-docs-v3/images/Y0PYbEQYtohVg7xTMQJc1k19nEe.png" alt="分享海报预览，包含知识库封面和小程序码"></p>
+<p><img src="/getbiji-docs-v3/images/Pb3Db8L16oEhRnxkOwDcQWn0nQf.png" alt="分享完成后他人收到的小程序卡片预览"></p>
 <h3 id="团队协作"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#团队协作"><span class="icon icon-link"></span></a>团队协作</h3>
 <p>让特定的人一起使用和维护知识库。</p>
 <h4 id="app-端-1"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#app-端-1"><span class="icon icon-link"></span></a>App 端</h4>
 <p><strong>第一步：选择「团队可见」</strong></p>
 <p>在分享设置中选择「团队可见」。</p>
-<p><img src="/images/Y5ddb4dreoHRy7xHLxicpyQ5nrf.png" alt="分享设置页面，选中「团队可见」选项，下方显示成员管理和加入设置"></p>
+<p><img src="/getbiji-docs-v3/images/Y5ddb4dreoHRy7xHLxicpyQ5nrf.png" alt="分享设置页面，选中「团队可见」选项，下方显示成员管理和加入设置"></p>
 <p><strong>第二步：分享链接给团队成员</strong></p>
 <p>将知识库链接通过微信等方式发给团队成员。</p>
-<p><img src="/images/UQkSb5GKloob3Cxe2HKc0EmSnld.png" alt="团队分享页面，显示分享方式和邀请链接"></p>
+<p><img src="/getbiji-docs-v3/images/UQkSb5GKloob3Cxe2HKc0EmSnld.png" alt="团队分享页面，显示分享方式和邀请链接"></p>
 <p><strong>第三步：管理成员加入方式</strong></p>
 <p>默认需要管理员审核才能加入。如果想让成员直接加入，可以打开「成员自动加入」开关。</p>
-<p><img src="/images/FGmpbMg08o2EBvxSVsfc69cGnNe.png" alt="团队设置页面，显示「成员自动加入」开关，关闭时需管理员审核，打开时成员可直接加入"></p>
+<p><img src="/getbiji-docs-v3/images/FGmpbMg08o2EBvxSVsfc69cGnNe.png" alt="团队设置页面，显示「成员自动加入」开关，关闭时需管理员审核，打开时成员可直接加入"></p>
 <p>其他成员点击链接后，会看到「申请加入知识库」按钮。管理员审核通过后，知识库会出现在成员的列表中。</p>
-<p><img src="/images/KsQdbmbcGo2kNAxRq7WctJuZnfI.png" alt="他人通过链接访问的团队知识库页面，显示「申请加入知识库」按钮"></p>
+<p><img src="/getbiji-docs-v3/images/KsQdbmbcGo2kNAxRq7WctJuZnfI.png" alt="他人通过链接访问的团队知识库页面，显示「申请加入知识库」按钮"></p>
 <h4 id="审核成员申请"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#审核成员申请"><span class="icon icon-link"></span></a>审核成员申请</h4>
 <p>有新成员申请加入时，知识库顶部的成员入口会有红点提醒。</p>
-<p><img src="/images/E4vvbxxc2oWXzix0YjQcxXjhnyd.png" alt="知识库详情页顶部成员入口显示红点通知，提示有新的加入申请待审核"></p>
+<p><img src="/getbiji-docs-v3/images/E4vvbxxc2oWXzix0YjQcxXjhnyd.png" alt="知识库详情页顶部成员入口显示红点通知，提示有新的加入申请待审核"></p>
 <p>点击进入成员管理页面，可以同意或拒绝申请。</p>
-<p><img src="/images/Z2RHbgy8Cof9dTxVHH5cdJIFned.png" alt="成员管理页面，显示待审核的申请列表，每条申请右侧有「同意」和「拒绝」按钮"></p>
+<p><img src="/getbiji-docs-v3/images/Z2RHbgy8Cof9dTxVHH5cdJIFned.png" alt="成员管理页面，显示待审核的申请列表，每条申请右侧有「同意」和「拒绝」按钮"></p>
 <p>通过审核的成员可以分配角色：普通成员或管理员。也可以随时将成员移出知识库。</p>
-<p><img src="/images/Lj1ub7ugeoMpXAxB0N5ctQwYnSh.png" alt="成员角色设置页面，可将成员设置为「普通成员」或「管理员」，底部有「移出知识库」选项"></p>
-<p><img src="/images/QrM3bb1E7oZyEMxsFzFcm4pHnTh.png" alt="成员列表页面，显示所有已加入的团队成员、角色和加入时间"></p>
+<p><img src="/getbiji-docs-v3/images/Lj1ub7ugeoMpXAxB0N5ctQwYnSh.png" alt="成员角色设置页面，可将成员设置为「普通成员」或「管理员」，底部有「移出知识库」选项"></p>
+<p><img src="/getbiji-docs-v3/images/QrM3bb1E7oZyEMxsFzFcm4pHnTh.png" alt="成员列表页面，显示所有已加入的团队成员、角色和加入时间"></p>
 <h4 id="团队角色权限"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#团队角色权限"><span class="icon icon-link"></span></a>团队角色权限</h4>
 <table>
 <thead>
@@ -154,17 +154,17 @@ const n={frontmatter:{title:"分享和团队管理",description:"将知识库公
 <p>看到别人分享的知识库，你可以订阅到自己的列表里方便随时访问。</p>
 <h3 id="app-端-2"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#app-端-2"><span class="icon icon-link"></span></a>App 端</h3>
 <p>点击别人分享给你的链接、小程序或海报，进入知识库页面后点击「+ 订阅」。</p>
-<p><img src="/images/MfT2bK30XoTJzrx2HtRcWmKpnGh.png" alt="他人分享的知识库页面，顶部显示「+ 订阅」按钮，点击即可将知识库加入自己的列表"></p>
+<p><img src="/getbiji-docs-v3/images/MfT2bK30XoTJzrx2HtRcWmKpnGh.png" alt="他人分享的知识库页面，顶部显示「+ 订阅」按钮，点击即可将知识库加入自己的列表"></p>
 <p>订阅后的知识库会出现在「我的」知识库列表中。你也可以在「精选」tab 下订阅官方推荐的知识库。</p>
-<p><img src="/images/B6ahbzjuZokVrmxE78ScLpKHnVe.png" alt="知识库列表页「精选」标签，展示官方推荐的优质知识库，可点击订阅"></p>
-<p><img src="/images/P987bN9gvosMABxmpoKcT0fincg.png" alt="已订阅的知识库出现在「我的」知识库列表中"></p>
+<p><img src="/getbiji-docs-v3/images/B6ahbzjuZokVrmxE78ScLpKHnVe.png" alt="知识库列表页「精选」标签，展示官方推荐的优质知识库，可点击订阅"></p>
+<p><img src="/getbiji-docs-v3/images/P987bN9gvosMABxmpoKcT0fincg.png" alt="已订阅的知识库出现在「我的」知识库列表中"></p>
 <p>如果想取消订阅，点击知识库的「...」更多按钮，选择「取消订阅」。</p>
-<p><img src="/images/HEUTbVF7noJCbOxwh7NcBBOEnXb.png" alt="知识库更多操作菜单，显示「取消订阅」选项"></p>
+<p><img src="/getbiji-docs-v3/images/HEUTbVF7noJCbOxwh7NcBBOEnXb.png" alt="知识库更多操作菜单，显示「取消订阅」选项"></p>
 <h3 id="网页端-1"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#网页端-1"><span class="icon icon-link"></span></a>网页端</h3>
 <p>打开别人分享的链接，点击右上角「订阅知识库」。</p>
-<p><img src="/images/Rl3CbILKDoCYgYxb5rgcnJzhnbw.png" alt="网页端他人知识库页面，右上角显示「订阅知识库」按钮"></p>
+<p><img src="/getbiji-docs-v3/images/Rl3CbILKDoCYgYxb5rgcnJzhnbw.png" alt="网页端他人知识库页面，右上角显示「订阅知识库」按钮"></p>
 <p>如果想取消订阅，点击知识库的「...」更多按钮，选择「取消订阅」。</p>
-<p><img src="/images/YEkebRi8xoCSHSx12Y9cFnJqnHc.png" alt="网页端知识库卡片的「...」菜单，显示「取消订阅」选项"></p>
+<p><img src="/getbiji-docs-v3/images/YEkebRi8xoCSHSx12Y9cFnJqnHc.png" alt="网页端知识库卡片的「...」菜单，显示「取消订阅」选项"></p>
 <h2 id="小技巧"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#小技巧"><span class="icon icon-link"></span></a>小技巧</h2>
 <ul>
 <li><strong>先公开试试</strong>：如果只是想让朋友看看，选「公开」最简单，发个链接就行</li>
@@ -198,43 +198,43 @@ const n={frontmatter:{title:"分享和团队管理",description:"将知识库公
 
 **第一步：在知识库内，点击右上角分享按钮**
 
-![知识库详情页，右上角显示分享图标按钮，点击进入分享设置](/images/QHofb2B0po5eFwxV3jccsPeZnkc.png)
+![知识库详情页，右上角显示分享图标按钮，点击进入分享设置](/getbiji-docs-v3/images/QHofb2B0po5eFwxV3jccsPeZnkc.png)
 
 **第二步：选择「公开」**
 
-![分享设置页面，顶部三个选项切换：私密、公开、团队可见，当前选中「公开」](/images/KD5zb6DfYoit77xs2bLcXD37nAg.png)
+![分享设置页面，顶部三个选项切换：私密、公开、团队可见，当前选中「公开」](/getbiji-docs-v3/images/KD5zb6DfYoit77xs2bLcXD37nAg.png)
 
 **第三步：选择分享方式**
 
 可以通过微信好友、朋友圈、分享海报、复制链接等方式分享出去。
 
-![公开分享页面，下方显示分享方式：微信好友、朋友圈、分享海报、复制链接等](/images/D3SYbrjKBohUChxiiv9c6C8znGd.png)
+![公开分享页面，下方显示分享方式：微信好友、朋友圈、分享海报、复制链接等](/getbiji-docs-v3/images/D3SYbrjKBohUChxiiv9c6C8znGd.png)
 
-![分享海报预览页面，显示知识库名称和二维码，可保存到手机相册](/images/Q51RbOJRIoWBKTxDrVecld1inWf.png)
+![分享海报预览页面，显示知识库名称和二维码，可保存到手机相册](/getbiji-docs-v3/images/Q51RbOJRIoWBKTxDrVecld1inWf.png)
 
 别人打开链接后，可以直接进入知识库浏览、搜索和使用 AI 问答。
 
-![他人通过链接访问的知识库页面，可浏览内容、搜索和使用 AI 功能](/images/VwGnbLgxroJr8qxNOZUcY06Mnsd.png)
+![他人通过链接访问的知识库页面，可浏览内容、搜索和使用 AI 功能](/getbiji-docs-v3/images/VwGnbLgxroJr8qxNOZUcY06Mnsd.png)
 
 #### 网页端
 
 进入知识库，点击右上角「分享」按钮，选择「公开」后复制链接即可。
 
-![网页端分享设置弹窗，可切换私密/公开/团队模式，公开模式下显示分享链接可复制](/images/Y5OpbZny5opHxrxArMRcXRrdnwg.png)
+![网页端分享设置弹窗，可切换私密/公开/团队模式，公开模式下显示分享链接可复制](/getbiji-docs-v3/images/Y5OpbZny5opHxrxArMRcXRrdnwg.png)
 
 #### 小程序端
 
 在小程序中同样可以分享：进入知识库，点击右上角分享按钮，选择「公开」后通过微信分享。
 
-![小程序端知识库页面，点击右上角分享按钮进入分享设置](/images/YsAWb8XVOoSHALxfwLncVCOfnTe.png)
+![小程序端知识库页面，点击右上角分享按钮进入分享设置](/getbiji-docs-v3/images/YsAWb8XVOoSHALxfwLncVCOfnTe.png)
 
-![小程序分享设置页面，切换为「公开」模式](/images/ZyO9bMXn9os3taxaU9PcEuO5nRh.png)
+![小程序分享设置页面，切换为「公开」模式](/getbiji-docs-v3/images/ZyO9bMXn9os3taxaU9PcEuO5nRh.png)
 
-![小程序公开分享页面，底部显示分享到微信好友、朋友圈等方式](/images/OpyVb6LKqoDos8xQOiycR6P0nfe.png)
+![小程序公开分享页面，底部显示分享到微信好友、朋友圈等方式](/getbiji-docs-v3/images/OpyVb6LKqoDos8xQOiycR6P0nfe.png)
 
-![分享海报预览，包含知识库封面和小程序码](/images/Y0PYbEQYtohVg7xTMQJc1k19nEe.png)
+![分享海报预览，包含知识库封面和小程序码](/getbiji-docs-v3/images/Y0PYbEQYtohVg7xTMQJc1k19nEe.png)
 
-![分享完成后他人收到的小程序卡片预览](/images/Pb3Db8L16oEhRnxkOwDcQWn0nQf.png)
+![分享完成后他人收到的小程序卡片预览](/getbiji-docs-v3/images/Pb3Db8L16oEhRnxkOwDcQWn0nQf.png)
 
 ### 团队协作
 
@@ -246,39 +246,39 @@ const n={frontmatter:{title:"分享和团队管理",description:"将知识库公
 
 在分享设置中选择「团队可见」。
 
-![分享设置页面，选中「团队可见」选项，下方显示成员管理和加入设置](/images/Y5ddb4dreoHRy7xHLxicpyQ5nrf.png)
+![分享设置页面，选中「团队可见」选项，下方显示成员管理和加入设置](/getbiji-docs-v3/images/Y5ddb4dreoHRy7xHLxicpyQ5nrf.png)
 
 **第二步：分享链接给团队成员**
 
 将知识库链接通过微信等方式发给团队成员。
 
-![团队分享页面，显示分享方式和邀请链接](/images/UQkSb5GKloob3Cxe2HKc0EmSnld.png)
+![团队分享页面，显示分享方式和邀请链接](/getbiji-docs-v3/images/UQkSb5GKloob3Cxe2HKc0EmSnld.png)
 
 **第三步：管理成员加入方式**
 
 默认需要管理员审核才能加入。如果想让成员直接加入，可以打开「成员自动加入」开关。
 
-![团队设置页面，显示「成员自动加入」开关，关闭时需管理员审核，打开时成员可直接加入](/images/FGmpbMg08o2EBvxSVsfc69cGnNe.png)
+![团队设置页面，显示「成员自动加入」开关，关闭时需管理员审核，打开时成员可直接加入](/getbiji-docs-v3/images/FGmpbMg08o2EBvxSVsfc69cGnNe.png)
 
 其他成员点击链接后，会看到「申请加入知识库」按钮。管理员审核通过后，知识库会出现在成员的列表中。
 
-![他人通过链接访问的团队知识库页面，显示「申请加入知识库」按钮](/images/KsQdbmbcGo2kNAxRq7WctJuZnfI.png)
+![他人通过链接访问的团队知识库页面，显示「申请加入知识库」按钮](/getbiji-docs-v3/images/KsQdbmbcGo2kNAxRq7WctJuZnfI.png)
 
 #### 审核成员申请
 
 有新成员申请加入时，知识库顶部的成员入口会有红点提醒。
 
-![知识库详情页顶部成员入口显示红点通知，提示有新的加入申请待审核](/images/E4vvbxxc2oWXzix0YjQcxXjhnyd.png)
+![知识库详情页顶部成员入口显示红点通知，提示有新的加入申请待审核](/getbiji-docs-v3/images/E4vvbxxc2oWXzix0YjQcxXjhnyd.png)
 
 点击进入成员管理页面，可以同意或拒绝申请。
 
-![成员管理页面，显示待审核的申请列表，每条申请右侧有「同意」和「拒绝」按钮](/images/Z2RHbgy8Cof9dTxVHH5cdJIFned.png)
+![成员管理页面，显示待审核的申请列表，每条申请右侧有「同意」和「拒绝」按钮](/getbiji-docs-v3/images/Z2RHbgy8Cof9dTxVHH5cdJIFned.png)
 
 通过审核的成员可以分配角色：普通成员或管理员。也可以随时将成员移出知识库。
 
-![成员角色设置页面，可将成员设置为「普通成员」或「管理员」，底部有「移出知识库」选项](/images/Lj1ub7ugeoMpXAxB0N5ctQwYnSh.png)
+![成员角色设置页面，可将成员设置为「普通成员」或「管理员」，底部有「移出知识库」选项](/getbiji-docs-v3/images/Lj1ub7ugeoMpXAxB0N5ctQwYnSh.png)
 
-![成员列表页面，显示所有已加入的团队成员、角色和加入时间](/images/QrM3bb1E7oZyEMxsFzFcm4pHnTh.png)
+![成员列表页面，显示所有已加入的团队成员、角色和加入时间](/getbiji-docs-v3/images/QrM3bb1E7oZyEMxsFzFcm4pHnTh.png)
 
 #### 团队角色权限
 
@@ -304,27 +304,27 @@ const n={frontmatter:{title:"分享和团队管理",description:"将知识库公
 
 点击别人分享给你的链接、小程序或海报，进入知识库页面后点击「+ 订阅」。
 
-![他人分享的知识库页面，顶部显示「+ 订阅」按钮，点击即可将知识库加入自己的列表](/images/MfT2bK30XoTJzrx2HtRcWmKpnGh.png)
+![他人分享的知识库页面，顶部显示「+ 订阅」按钮，点击即可将知识库加入自己的列表](/getbiji-docs-v3/images/MfT2bK30XoTJzrx2HtRcWmKpnGh.png)
 
 订阅后的知识库会出现在「我的」知识库列表中。你也可以在「精选」tab 下订阅官方推荐的知识库。
 
-![知识库列表页「精选」标签，展示官方推荐的优质知识库，可点击订阅](/images/B6ahbzjuZokVrmxE78ScLpKHnVe.png)
+![知识库列表页「精选」标签，展示官方推荐的优质知识库，可点击订阅](/getbiji-docs-v3/images/B6ahbzjuZokVrmxE78ScLpKHnVe.png)
 
-![已订阅的知识库出现在「我的」知识库列表中](/images/P987bN9gvosMABxmpoKcT0fincg.png)
+![已订阅的知识库出现在「我的」知识库列表中](/getbiji-docs-v3/images/P987bN9gvosMABxmpoKcT0fincg.png)
 
 如果想取消订阅，点击知识库的「...」更多按钮，选择「取消订阅」。
 
-![知识库更多操作菜单，显示「取消订阅」选项](/images/HEUTbVF7noJCbOxwh7NcBBOEnXb.png)
+![知识库更多操作菜单，显示「取消订阅」选项](/getbiji-docs-v3/images/HEUTbVF7noJCbOxwh7NcBBOEnXb.png)
 
 ### 网页端
 
 打开别人分享的链接，点击右上角「订阅知识库」。
 
-![网页端他人知识库页面，右上角显示「订阅知识库」按钮](/images/Rl3CbILKDoCYgYxb5rgcnJzhnbw.png)
+![网页端他人知识库页面，右上角显示「订阅知识库」按钮](/getbiji-docs-v3/images/Rl3CbILKDoCYgYxb5rgcnJzhnbw.png)
 
 如果想取消订阅，点击知识库的「...」更多按钮，选择「取消订阅」。
 
-![网页端知识库卡片的「...」菜单，显示「取消订阅」选项](/images/YEkebRi8xoCSHSx12Y9cFnJqnHc.png)
+![网页端知识库卡片的「...」菜单，显示「取消订阅」选项](/getbiji-docs-v3/images/YEkebRi8xoCSHSx12Y9cFnJqnHc.png)
 
 ## 小技巧
 

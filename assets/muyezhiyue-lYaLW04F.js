@@ -1,9 +1,9 @@
 const n={frontmatter:{title:"暮野之月：得到出品的Get笔记App来了，免费版已够用",hidden:!1,toc:!0,draft:!1},html:`<h1 id="得到出品的get笔记app来了免费版已够用"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#得到出品的get笔记app来了免费版已够用"><span class="icon icon-link"></span></a>得到出品的Get笔记App来了，免费版已够用</h1>
 <p>公众号原文链接：<a href="https://mp.weixin.qq.com/s/Pblnh39amez34eRFdzIy8A">https://mp.weixin.qq.com/s/Pblnh39amez34eRFdzIy8A</a></p>
 <p>原创 暮野之月 杂事洞明记 <em>2024年12月16日 22:07</em> <em>湖南</em></p>
-<p><img src="/images/PqsOb7P17o0INhxtoqzctVR5n5d.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/PqsOb7P17o0INhxtoqzctVR5n5d.png" alt=""></p>
 <p><strong>这是<strong><strong>杂事洞明记</strong></strong>公众号记录的<strong><strong>第371件</strong></strong>杂事儿</strong></p>
-<p><img src="/images/S2OIbczEIokI7cxSGM4ceDhmnGg.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/S2OIbczEIokI7cxSGM4ceDhmnGg.png" alt=""></p>
 <p><strong>插画 · 街角的面包店｜嘉禾</strong> 2024.12.16</p>
 <p>晚上，我看到得到平台弹出了一场关于AI的直播，主题是「AI提效工具演示，八大场景实操」。这场直播由得到的联合创始人快刀青衣和罗振宇共同完成，罗振宇主要担任主持人的角色，而快刀青衣则负责介绍AI工具「Get笔记」。</p>
 <p><strong>Get笔记App</strong>，是从得到内部孵化出来的产品。</p>
@@ -31,24 +31,24 @@ const n={frontmatter:{title:"暮野之月：得到出品的Get笔记App来了，
 <p>上面这段文字也是通过我口述录音的方式完成。当然，因为不只是自己看，要呈现给大家，所以会有比较多的调整。</p>
 <p>这个APP支持多端设备，包括手机、iPad和电脑端。电脑端目前通过网页访问，却有一个顶级域名（<a href="http://www.biji.com%EF%BC%89%E3%80%82">www.biji.com）。</a></p>
 <p>这是目前的使用情况，未来有更多体验，再反馈。</p>
-<p><img src="/images/EnpubWDBZoI1k4xwN51cYUownzh.png" alt=""></p>
-<p><img src="/images/XFnobL1eeoPdT9xKytmcGuSVnpF.png" alt=""></p>
-<p><img src="/images/ZDuzb4cq6oxY95xrdxQcuZ12nae.png" alt=""></p>
-<p><img src="/images/VDRVb5iUXoVW6Sx6HU1cvrGUnMc.png" alt=""></p>
-<p><img src="/images/NFT9b61uXobRAOxF3iUcaluVncd.png" alt=""></p>
-<p><img src="/images/Vhc0ba0y4owYJ2xddFacw9vfnve.png" alt=""></p>
-<p><img src="/images/Cgtgbg9rQoqiobx1xuycZsm5nhh.png" alt=""></p>`,headings:[],raw:`
+<p><img src="/getbiji-docs-v3/images/EnpubWDBZoI1k4xwN51cYUownzh.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/XFnobL1eeoPdT9xKytmcGuSVnpF.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/ZDuzb4cq6oxY95xrdxQcuZ12nae.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/VDRVb5iUXoVW6Sx6HU1cvrGUnMc.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/NFT9b61uXobRAOxF3iUcaluVncd.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/Vhc0ba0y4owYJ2xddFacw9vfnve.png" alt=""></p>
+<p><img src="/getbiji-docs-v3/images/Cgtgbg9rQoqiobx1xuycZsm5nhh.png" alt=""></p>`,headings:[],raw:`
 # 得到出品的Get笔记App来了，免费版已够用
 
 公众号原文链接：https://mp.weixin.qq.com/s/Pblnh39amez34eRFdzIy8A
 
 原创 暮野之月 杂事洞明记 *2024年12月16日 22:07* *湖南*
 
-![](/images/PqsOb7P17o0INhxtoqzctVR5n5d.png)
+![](/getbiji-docs-v3/images/PqsOb7P17o0INhxtoqzctVR5n5d.png)
 
 **这是****杂事洞明记****公众号记录的****第371件****杂事儿**
 
-![](/images/S2OIbczEIokI7cxSGM4ceDhmnGg.png)
+![](/getbiji-docs-v3/images/S2OIbczEIokI7cxSGM4ceDhmnGg.png)
 
 **插画 · 街角的面包店｜嘉禾** 2024.12.16
 
@@ -104,17 +104,17 @@ const n={frontmatter:{title:"暮野之月：得到出品的Get笔记App来了，
 
 这是目前的使用情况，未来有更多体验，再反馈。
 
-![](/images/EnpubWDBZoI1k4xwN51cYUownzh.png)
+![](/getbiji-docs-v3/images/EnpubWDBZoI1k4xwN51cYUownzh.png)
 
-![](/images/XFnobL1eeoPdT9xKytmcGuSVnpF.png)
+![](/getbiji-docs-v3/images/XFnobL1eeoPdT9xKytmcGuSVnpF.png)
 
-![](/images/ZDuzb4cq6oxY95xrdxQcuZ12nae.png)
+![](/getbiji-docs-v3/images/ZDuzb4cq6oxY95xrdxQcuZ12nae.png)
 
-![](/images/VDRVb5iUXoVW6Sx6HU1cvrGUnMc.png)
+![](/getbiji-docs-v3/images/VDRVb5iUXoVW6Sx6HU1cvrGUnMc.png)
 
-![](/images/NFT9b61uXobRAOxF3iUcaluVncd.png)
+![](/getbiji-docs-v3/images/NFT9b61uXobRAOxF3iUcaluVncd.png)
 
-![](/images/Vhc0ba0y4owYJ2xddFacw9vfnve.png)
+![](/getbiji-docs-v3/images/Vhc0ba0y4owYJ2xddFacw9vfnve.png)
 
-![](/images/Cgtgbg9rQoqiobx1xuycZsm5nhh.png)
+![](/getbiji-docs-v3/images/Cgtgbg9rQoqiobx1xuycZsm5nhh.png)
 `};export{n as default};

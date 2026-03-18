@@ -7,25 +7,25 @@ const n={frontmatter:{title:"创建知识库",description:"创建一个知识库
 <h3 id="app-端"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#app-端"><span class="icon icon-link"></span></a>App 端</h3>
 <p><strong>第一步：进入知识库页面</strong></p>
 <p>打开 App，点击首页顶部的「更多」入口，进入知识库页面。</p>
-<p><img src="/images/ZNMSbuHSqotgUMx3BVCcu74mnBf.png" alt="App 首页顶部导航栏，左侧显示「更多」入口按钮，点击可进入知识库等功能页面"></p>
+<p><img src="/getbiji-docs-v3/images/ZNMSbuHSqotgUMx3BVCcu74mnBf.png" alt="App 首页顶部导航栏，左侧显示「更多」入口按钮，点击可进入知识库等功能页面"></p>
 <p><strong>第二步：点击新建</strong></p>
 <p>在知识库页面，点击右上角的「+ 新建」按钮。</p>
-<p><img src="/images/SisEb5drPoSjZNxdYnucvVDRnle.png" alt="知识库列表页面，右上角显示「+ 新建」按钮，点击即可创建新知识库"></p>
+<p><img src="/getbiji-docs-v3/images/SisEb5drPoSjZNxdYnucvVDRnle.png" alt="知识库列表页面，右上角显示「+ 新建」按钮，点击即可创建新知识库"></p>
 <p><strong>第三步：填写名称，完成创建</strong></p>
 <p>输入知识库名称，点击确定，知识库就创建好了。</p>
-<p><img src="/images/EVywbEqXYohPmVx6dz2cQpMtnNb.png" alt="创建知识库弹窗，包含名称输入框和确定按钮，输入知识库名称即可完成创建"></p>
+<p><img src="/getbiji-docs-v3/images/EVywbEqXYohPmVx6dz2cQpMtnNb.png" alt="创建知识库弹窗，包含名称输入框和确定按钮，输入知识库名称即可完成创建"></p>
 <p>创建完成后，你可以在知识库详情页编辑名称和描述，也可以开始往里面添加内容。</p>
-<p><img src="/images/TH0GbGRQVo0v62x0boUcTlXXnBd.png" alt="知识库详情页，顶部显示知识库名称和描述，下方有「添加内容」按钮，可上传文件、订阅直播和博主、添加已有笔记"></p>
-<p><img src="/images/OdfIbtwiNowHydxzWvJc0aY3nte.png" alt="知识库编辑页面，可修改知识库名称和描述信息，底部有删除知识库选项"></p>
+<p><img src="/getbiji-docs-v3/images/TH0GbGRQVo0v62x0boUcTlXXnBd.png" alt="知识库详情页，顶部显示知识库名称和描述，下方有「添加内容」按钮，可上传文件、订阅直播和博主、添加已有笔记"></p>
+<p><img src="/getbiji-docs-v3/images/OdfIbtwiNowHydxzWvJc0aY3nte.png" alt="知识库编辑页面，可修改知识库名称和描述信息，底部有删除知识库选项"></p>
 <h3 id="网页端"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#网页端"><span class="icon icon-link"></span></a>网页端</h3>
 <p><strong>第一步：打开 biji.com，点击左侧「知识库」</strong></p>
-<p><img src="/images/FURJb7qAEo5jdCxo3WBcWe6wnRb.png" alt="网页端左侧菜单栏，显示「知识库」入口，点击进入知识库管理页面"></p>
+<p><img src="/getbiji-docs-v3/images/FURJb7qAEo5jdCxo3WBcWe6wnRb.png" alt="网页端左侧菜单栏，显示「知识库」入口，点击进入知识库管理页面"></p>
 <p><strong>第二步：点击「创建知识库」</strong></p>
-<p><img src="/images/ZWh3bqq8vo3akfxVm8kcdglvnhe.png" alt="网页端知识库页面，顶部显示「创建知识库」按钮，下方为已有知识库列表"></p>
+<p><img src="/getbiji-docs-v3/images/ZWh3bqq8vo3akfxVm8kcdglvnhe.png" alt="网页端知识库页面，顶部显示「创建知识库」按钮，下方为已有知识库列表"></p>
 <p>填写名称后即可完成创建。</p>
-<p><img src="/images/Z2XjbqxJVo2iEDxo3w5cwS9znef.png" alt="创建知识库弹窗，输入知识库名称后点击确定完成创建"></p>
+<p><img src="/getbiji-docs-v3/images/Z2XjbqxJVo2iEDxo3w5cwS9znef.png" alt="创建知识库弹窗，输入知识库名称后点击确定完成创建"></p>
 <p>如果想编辑或删除知识库，点击知识库卡片上的「...」按钮。</p>
-<p><img src="/images/IaEBbj1rVoZafBxge7ic6Iahnge.png" alt="网页端知识库卡片右上角的「...」更多操作菜单，包含编辑和删除选项"></p>
+<p><img src="/getbiji-docs-v3/images/IaEBbj1rVoZafBxge7ic6Iahnge.png" alt="网页端知识库卡片右上角的「...」更多操作菜单，包含编辑和删除选项"></p>
 <h2 id="容量限制"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#容量限制"><span class="icon icon-link"></span></a>容量限制</h2>
 <table>
 <thead>
@@ -77,43 +77,43 @@ const n={frontmatter:{title:"创建知识库",description:"创建一个知识库
 
 打开 App，点击首页顶部的「更多」入口，进入知识库页面。
 
-![App 首页顶部导航栏，左侧显示「更多」入口按钮，点击可进入知识库等功能页面](/images/ZNMSbuHSqotgUMx3BVCcu74mnBf.png)
+![App 首页顶部导航栏，左侧显示「更多」入口按钮，点击可进入知识库等功能页面](/getbiji-docs-v3/images/ZNMSbuHSqotgUMx3BVCcu74mnBf.png)
 
 **第二步：点击新建**
 
 在知识库页面，点击右上角的「+ 新建」按钮。
 
-![知识库列表页面，右上角显示「+ 新建」按钮，点击即可创建新知识库](/images/SisEb5drPoSjZNxdYnucvVDRnle.png)
+![知识库列表页面，右上角显示「+ 新建」按钮，点击即可创建新知识库](/getbiji-docs-v3/images/SisEb5drPoSjZNxdYnucvVDRnle.png)
 
 **第三步：填写名称，完成创建**
 
 输入知识库名称，点击确定，知识库就创建好了。
 
-![创建知识库弹窗，包含名称输入框和确定按钮，输入知识库名称即可完成创建](/images/EVywbEqXYohPmVx6dz2cQpMtnNb.png)
+![创建知识库弹窗，包含名称输入框和确定按钮，输入知识库名称即可完成创建](/getbiji-docs-v3/images/EVywbEqXYohPmVx6dz2cQpMtnNb.png)
 
 创建完成后，你可以在知识库详情页编辑名称和描述，也可以开始往里面添加内容。
 
-![知识库详情页，顶部显示知识库名称和描述，下方有「添加内容」按钮，可上传文件、订阅直播和博主、添加已有笔记](/images/TH0GbGRQVo0v62x0boUcTlXXnBd.png)
+![知识库详情页，顶部显示知识库名称和描述，下方有「添加内容」按钮，可上传文件、订阅直播和博主、添加已有笔记](/getbiji-docs-v3/images/TH0GbGRQVo0v62x0boUcTlXXnBd.png)
 
-![知识库编辑页面，可修改知识库名称和描述信息，底部有删除知识库选项](/images/OdfIbtwiNowHydxzWvJc0aY3nte.png)
+![知识库编辑页面，可修改知识库名称和描述信息，底部有删除知识库选项](/getbiji-docs-v3/images/OdfIbtwiNowHydxzWvJc0aY3nte.png)
 
 ### 网页端
 
 **第一步：打开 biji.com，点击左侧「知识库」**
 
-![网页端左侧菜单栏，显示「知识库」入口，点击进入知识库管理页面](/images/FURJb7qAEo5jdCxo3WBcWe6wnRb.png)
+![网页端左侧菜单栏，显示「知识库」入口，点击进入知识库管理页面](/getbiji-docs-v3/images/FURJb7qAEo5jdCxo3WBcWe6wnRb.png)
 
 **第二步：点击「创建知识库」**
 
-![网页端知识库页面，顶部显示「创建知识库」按钮，下方为已有知识库列表](/images/ZWh3bqq8vo3akfxVm8kcdglvnhe.png)
+![网页端知识库页面，顶部显示「创建知识库」按钮，下方为已有知识库列表](/getbiji-docs-v3/images/ZWh3bqq8vo3akfxVm8kcdglvnhe.png)
 
 填写名称后即可完成创建。
 
-![创建知识库弹窗，输入知识库名称后点击确定完成创建](/images/Z2XjbqxJVo2iEDxo3w5cwS9znef.png)
+![创建知识库弹窗，输入知识库名称后点击确定完成创建](/getbiji-docs-v3/images/Z2XjbqxJVo2iEDxo3w5cwS9znef.png)
 
 如果想编辑或删除知识库，点击知识库卡片上的「...」按钮。
 
-![网页端知识库卡片右上角的「...」更多操作菜单，包含编辑和删除选项](/images/IaEBbj1rVoZafBxge7ic6Iahnge.png)
+![网页端知识库卡片右上角的「...」更多操作菜单，包含编辑和删除选项](/getbiji-docs-v3/images/IaEBbj1rVoZafBxge7ic6Iahnge.png)
 
 ## 容量限制
 

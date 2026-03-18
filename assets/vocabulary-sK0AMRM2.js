@@ -10,17 +10,17 @@ const n={frontmatter:{title:"语音词库",description:"添加专有名词、人
 <h2 id="怎么用"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#怎么用"><span class="icon icon-link"></span></a>怎么用</h2>
 <h3 id="第一步进入语音词库"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第一步进入语音词库"><span class="icon icon-link"></span></a>第一步：进入语音词库</h3>
 <p>打开 App，点击首页左上角的菜单按钮，点击头像进入「我的账号」，找到「语音词库」并点击进入。</p>
-<p><img src="/images/IZGGbVMwtoIuyVxwvgTcD8SQnvc.png" alt="「我的账号」页面，常用操作分组下「语音词库」选项用红框高亮标注"></p>
+<p><img src="/getbiji-docs-v3/images/IZGGbVMwtoIuyVxwvgTcD8SQnvc.png" alt="「我的账号」页面，常用操作分组下「语音词库」选项用红框高亮标注"></p>
 <h3 id="第二步添加词汇"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第二步添加词汇"><span class="icon icon-link"></span></a>第二步：添加词汇</h3>
 <p>有两种方式：</p>
 <ul>
 <li><strong>AI 推荐</strong>：AI 会根据你以往的笔记，推荐你可能需要的词，点一下就能添加</li>
 </ul>
-<p><img src="/images/GI47b7kT8oXGk2xUDMpcqqMjnIh.png" alt="语音词库页面，上方「AI 推荐热词」区域展示 Figma、控制论、ClawCon 等推荐词，下方「我的词库」显示已添加的 6 个自定义词汇，底部有输入框可手动添加"></p>
+<p><img src="/getbiji-docs-v3/images/GI47b7kT8oXGk2xUDMpcqqMjnIh.png" alt="语音词库页面，上方「AI 推荐热词」区域展示 Figma、控制论、ClawCon 等推荐词，下方「我的词库」显示已添加的 6 个自定义词汇，底部有输入框可手动添加"></p>
 <ul>
 <li><strong>自己输入</strong>：在「自定义词库」里手动输入词汇，保存即可</li>
 </ul>
-<p><img src="/images/EUaQbxCQzoEY9uxZoOHcta5Sn4D.png" alt="录音界面中点击右上角设置图标，弹出底部菜单，红色箭头指向「语音词库」入口，可在录音时临时添加词汇"></p>
+<p><img src="/getbiji-docs-v3/images/EUaQbxCQzoEY9uxZoOHcta5Sn4D.png" alt="录音界面中点击右上角设置图标，弹出底部菜单，红色箭头指向「语音词库」入口，可在录音时临时添加词汇"></p>
 <h3 id="第三步录音时临时加词"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第三步录音时临时加词"><span class="icon icon-link"></span></a>第三步：录音时临时加词</h3>
 <p>录音过程中发现有词识别不对？点右上角的设置图标，进入「语音词库」临时添加，不用退出录音。</p>
 <h2 id="小技巧"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#小技巧"><span class="icon icon-link"></span></a>小技巧</h2>
@@ -46,7 +46,7 @@ const n={frontmatter:{title:"语音词库",description:"添加专有名词、人
 
 打开 App，点击首页左上角的菜单按钮，点击头像进入「我的账号」，找到「语音词库」并点击进入。
 
-![「我的账号」页面，常用操作分组下「语音词库」选项用红框高亮标注](/images/IZGGbVMwtoIuyVxwvgTcD8SQnvc.png)
+![「我的账号」页面，常用操作分组下「语音词库」选项用红框高亮标注](/getbiji-docs-v3/images/IZGGbVMwtoIuyVxwvgTcD8SQnvc.png)
 
 ### 第二步：添加词汇
 
@@ -54,11 +54,11 @@ const n={frontmatter:{title:"语音词库",description:"添加专有名词、人
 
 - **AI 推荐**：AI 会根据你以往的笔记，推荐你可能需要的词，点一下就能添加
 
-![语音词库页面，上方「AI 推荐热词」区域展示 Figma、控制论、ClawCon 等推荐词，下方「我的词库」显示已添加的 6 个自定义词汇，底部有输入框可手动添加](/images/GI47b7kT8oXGk2xUDMpcqqMjnIh.png)
+![语音词库页面，上方「AI 推荐热词」区域展示 Figma、控制论、ClawCon 等推荐词，下方「我的词库」显示已添加的 6 个自定义词汇，底部有输入框可手动添加](/getbiji-docs-v3/images/GI47b7kT8oXGk2xUDMpcqqMjnIh.png)
 
 - **自己输入**：在「自定义词库」里手动输入词汇，保存即可
 
-![录音界面中点击右上角设置图标，弹出底部菜单，红色箭头指向「语音词库」入口，可在录音时临时添加词汇](/images/EUaQbxCQzoEY9uxZoOHcta5Sn4D.png)
+![录音界面中点击右上角设置图标，弹出底部菜单，红色箭头指向「语音词库」入口，可在录音时临时添加词汇](/getbiji-docs-v3/images/EUaQbxCQzoEY9uxZoOHcta5Sn4D.png)
 
 ### 第三步：录音时临时加词
 
