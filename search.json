@@ -109,9 +109,13 @@
       "url": "/changelog",
       "title": "版本更新",
       "description": "",
-      "headings": [],
+      "headings": [
+        "iOS 版本更新",
+        "Android 版本更新",
+        "HarmonyOS 版本更新"
+      ],
       "tags": [],
-      "wordCount": 136
+      "wordCount": 33
     },
     {
       "id": "changelog/ios",
