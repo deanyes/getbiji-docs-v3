@@ -1,0 +1,72 @@
+const n={frontmatter:{title:"语音词库",description:"添加专有名词、人名、术语，让 AI 录音转文字更准确",hidden:!1,toc:!0,draft:!1},html:`<h1 id="语音词库"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#语音词库"><span class="icon icon-link"></span></a>语音词库</h1>
+<p>添加专有名词、人名、术语，让 AI 录音转文字更准确。比如「柳比歇夫」不会再被写成「刘比谢夫」。</p>
+<h2 id="什么时候用"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#什么时候用"><span class="icon icon-link"></span></a>什么时候用</h2>
+<ul>
+<li>你的行业有很多专业术语（金融、法律、医疗等）</li>
+<li>同事或客户的名字比较特别，尤其是生僻字</li>
+<li>经常提到某些品牌名、产品名、项目代号</li>
+<li>用到英文缩写或外来词汇</li>
+</ul>
+<h2 id="怎么用"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#怎么用"><span class="icon icon-link"></span></a>怎么用</h2>
+<h3 id="第一步进入语音词库"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第一步进入语音词库"><span class="icon icon-link"></span></a>第一步：进入语音词库</h3>
+<p>打开 App，点击首页左上角的菜单按钮，点击头像进入「我的账号」，找到「语音词库」并点击进入。</p>
+<p><img src="/getbiji-docs-v3/images/IZGGbVMwtoIuyVxwvgTcD8SQnvc.png" alt="「我的账号」页面，常用操作分组下「语音词库」选项用红框高亮标注"></p>
+<h3 id="第二步添加词汇"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第二步添加词汇"><span class="icon icon-link"></span></a>第二步：添加词汇</h3>
+<p>有两种方式：</p>
+<ul>
+<li><strong>AI 推荐</strong>：AI 会根据你以往的笔记，推荐你可能需要的词，点一下就能添加</li>
+</ul>
+<p><img src="/getbiji-docs-v3/images/GI47b7kT8oXGk2xUDMpcqqMjnIh.png" alt="语音词库页面，上方「AI 推荐热词」区域展示 Figma、控制论、ClawCon 等推荐词，下方「我的词库」显示已添加的 6 个自定义词汇，底部有输入框可手动添加"></p>
+<ul>
+<li><strong>自己输入</strong>：在「自定义词库」里手动输入词汇，保存即可</li>
+</ul>
+<p><img src="/getbiji-docs-v3/images/EUaQbxCQzoEY9uxZoOHcta5Sn4D.png" alt="录音界面中点击右上角设置图标，弹出底部菜单，红色箭头指向「语音词库」入口，可在录音时临时添加词汇"></p>
+<h3 id="第三步录音时临时加词"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第三步录音时临时加词"><span class="icon icon-link"></span></a>第三步：录音时临时加词</h3>
+<p>录音过程中发现有词识别不对？点右上角的设置图标，进入「语音词库」临时添加，不用退出录音。</p>
+<h2 id="小技巧"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#小技巧"><span class="icon icon-link"></span></a>小技巧</h2>
+<ul>
+<li><strong>加完词不用做任何操作</strong>：以后录音遇到同音词，AI 会自动优先用你设定的写法</li>
+<li><strong>开会前提前加词</strong>：如果知道会议会涉及哪些专业词，提前加好效果更好</li>
+<li><strong>人名建议带全名</strong>：比如加「张逸飞」比只加「逸飞」识别更准</li>
+</ul>`,headings:[{depth:2,text:"什么时候用",id:"什么时候用"},{depth:2,text:"怎么用",id:"怎么用"},{depth:3,text:"第一步：进入语音词库",id:"第一步进入语音词库"},{depth:3,text:"第二步：添加词汇",id:"第二步添加词汇"},{depth:3,text:"第三步：录音时临时加词",id:"第三步录音时临时加词"},{depth:2,text:"小技巧",id:"小技巧"}],raw:`
+# 语音词库
+
+添加专有名词、人名、术语，让 AI 录音转文字更准确。比如「柳比歇夫」不会再被写成「刘比谢夫」。
+
+## 什么时候用
+
+- 你的行业有很多专业术语（金融、法律、医疗等）
+- 同事或客户的名字比较特别，尤其是生僻字
+- 经常提到某些品牌名、产品名、项目代号
+- 用到英文缩写或外来词汇
+
+## 怎么用
+
+### 第一步：进入语音词库
+
+打开 App，点击首页左上角的菜单按钮，点击头像进入「我的账号」，找到「语音词库」并点击进入。
+
+![「我的账号」页面，常用操作分组下「语音词库」选项用红框高亮标注](/getbiji-docs-v3/images/IZGGbVMwtoIuyVxwvgTcD8SQnvc.png)
+
+### 第二步：添加词汇
+
+有两种方式：
+
+- **AI 推荐**：AI 会根据你以往的笔记，推荐你可能需要的词，点一下就能添加
+
+![语音词库页面，上方「AI 推荐热词」区域展示 Figma、控制论、ClawCon 等推荐词，下方「我的词库」显示已添加的 6 个自定义词汇，底部有输入框可手动添加](/getbiji-docs-v3/images/GI47b7kT8oXGk2xUDMpcqqMjnIh.png)
+
+- **自己输入**：在「自定义词库」里手动输入词汇，保存即可
+
+![录音界面中点击右上角设置图标，弹出底部菜单，红色箭头指向「语音词库」入口，可在录音时临时添加词汇](/getbiji-docs-v3/images/EUaQbxCQzoEY9uxZoOHcta5Sn4D.png)
+
+### 第三步：录音时临时加词
+
+录音过程中发现有词识别不对？点右上角的设置图标，进入「语音词库」临时添加，不用退出录音。
+
+## 小技巧
+
+- **加完词不用做任何操作**：以后录音遇到同音词，AI 会自动优先用你设定的写法
+- **开会前提前加词**：如果知道会议会涉及哪些专业词，提前加好效果更好
+- **人名建议带全名**：比如加「张逸飞」比只加「逸飞」识别更准
+`};export{n as default};
