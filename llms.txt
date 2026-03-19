@@ -1,0 +1,42 @@
+# Get笔记帮助中心
+
+> Documentation site powered by Tome
+
+- [版本更新](/changelog)
+- [开发者](/developer) - 通过 API 把 Get笔记的知识库能力接入你的应用，支持直接调用、Dify、扣子等多种方式
+- [常见问题](/faq) - 使用 Get笔记时遇到问题？这里有最常见问题的解答
+- [设备指南](/getseed/device) - GetSeed 录音卡的设备清单、按键说明、指示灯含义、充电方式、参数规格、开关机和重置操作
+- [常见问题](/getseed/faq) - GetSeed 录音卡的常见问题解答：设备连接、录音使用、充电续航、通话录音、会员权益、隐私安全等
+- [功能说明](/getseed) - GetSeed 录音卡的核心功能介绍：一键 MARK 标记重点、录音中拍照随手记、闪念灵感记录、固件升级
+- [AI 柳比歇夫记日记](/getseed/liubixiefu) - 让 AI 自动把你的每一天整理成客观日记，无需手动记录，支持对话补充和长期洞察
+- [快速使用](/getseed/quickstart) - GetSeed 录音卡开箱到上手的完整指南：添加设备、开始录音、闪念记录、通话录音、录音同步、生成笔记
+- [笔记发芽](/getseed/sprout) - AI 深度理解你的录音内容，跨领域跨学科生成关联报告，帮你从记录中发现新的认知和连接
+- [下载安装](/getting-started/download) - Get笔记支持 iOS、Android、微信小程序和网页端，一分钟完成安装，马上开始记笔记
+- [快速上手](/getting-started/quickstart) - 5 分钟学会 Get笔记的四种记笔记方式：语音、会议录音、拍照、保存链接，还能搜索和追加笔记
+- [Get笔记帮助中心](/) - 让记笔记，找笔记，用笔记变得简单
+- [将笔记加入知识库](/knowledge-base/add-notes) - 把已有的录音、文字、图片、链接笔记添加到知识库，统一管理和 AI 搜索
+- [创建知识库](/knowledge-base/create) - 创建一个知识库，把笔记、文件、直播、博主内容集中管理，支持 AI 搜索和问答
+- [分享和团队管理](/knowledge-base/share) - 将知识库公开分享或设为团队模式，支持成员管理、权限分配和订阅他人知识库
+- [订阅博主](/knowledge-base/subscribe-creator) - 订阅抖音博主，新视频自动变笔记，每天早上更新，不错过任何精彩内容
+- [订阅直播](/knowledge-base/subscribe-live) - 订阅得到 App 或视频号直播，AI 自动全程记录并生成内容总结和章节纪要
+- [上传文件](/knowledge-base/upload) - 把 PDF、Word、PPT 文件上传到知识库，AI 自动分析内容，支持搜索和问答
+- [智能拍书](/recording/book-scan) - 拍下纸质书页自动识别书籍，3 秒变成数字笔记并归类到对应书籍
+- [课堂录音](/recording/classroom) - 上课录音自动转文字，AI 标注考点重点，下课即得一份完整学霸笔记
+- [导入音视频](/recording/import-media) - 导入手机中已有的录音或视频文件，AI 自动转写文字并整理成结构化笔记
+- [链接保存](/recording/link) - 复制公众号、抖音、B 站、小红书等链接粘贴进来，AI 自动读取内容并生成精华总结笔记
+- [会议录音](/recording/meeting) - 手机放桌上录音，AI 自动区分发言人并生成会议纪要
+- [拍照记笔记](/recording/photo) - 拍几张照片，AI 自动识别文字并整理成条理清晰的笔记
+- [手机内录](/recording/screen-record) - 手机在播什么就录什么，后台录制视频、播客、网课的声音，自动转文字生成笔记
+- [语音词库](/recording/vocabulary) - 添加专有名词、人名、术语，让 AI 录音转文字更准确
+- [语音口令](/recording/voice-command) - 录音时说一句口令词，AI 自动捕捉并标记重点内容
+- [语音速记](/recording/voice-memo) - 对着手机说话，AI 自动转文字、去口头禅、分段落，说完即得一篇干净笔记
+- [声纹识别](/recording/voiceprint) - 录入你的声音后，AI 在录音笔记中自动标记你的发言
+- [快捷指令](/shortcuts/ios-shortcuts) - 用 iPhone 操作按钮或轻点背面，一按就能打开 Get笔记开始录音
+- [Siri 唤起](/shortcuts/siri) - 喊一声 Siri 就能开始录音、写笔记、搜笔记，双手不用碰手机
+- [桌面小组件](/shortcuts/widget) - 把 Get笔记放到手机桌面，点一下就能录音、写笔记、搜笔记，不用打开 App
+- [曹将：看完罗振宇跨年演讲，种草了一个软件](/testimonials/caojiang)
+- [达人推荐](/testimonials)
+- [暮野之月：得到出品的Get笔记App来了，免费版已够用](/testimonials/muyezhiyue)
+- [王树义老师：得到 Get 笔记 AI 手机应用，好用吗？](/testimonials/wangshuyi)
+- [系统飞轮：看完罗振宇跨年演讲，种草了一个笔记软件](/testimonials/xitongfeilun)
+- [用户案例](/use-cases)
