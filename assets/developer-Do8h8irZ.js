@@ -234,7 +234,7 @@ const n={frontmatter:{title:"开发者",description:"通过 API 把 Get笔记的
 </ul>
 <h2 id="需要帮助"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#需要帮助"><span class="icon icon-link"></span></a>需要帮助？</h2>
 <p>扫码加入官方交流群，与其他开发者交流：</p>
-<p><img src="/getbiji-docs-v3/images/NvqGbWNRxo44nxx9UbBclhsZnEb.png" alt="Get笔记官方交流群二维码，微信扫码即可加入"></p>`,headings:[{depth:2,text:"是什么",id:"是什么"},{depth:2,text:"怎么用",id:"怎么用"},{depth:3,text:"第一步：获取 API 配置信息",id:"第一步获取-api-配置信息"},{depth:3,text:"第二步：调用 API",id:"第二步调用-api"},{depth:3,text:"第三步：选择接入方式",id:"第三步选择接入方式"},{depth:4,text:"在 Dify 中使用",id:"在-dify-中使用"},{depth:4,text:"在扣子中使用",id:"在扣子中使用"},{depth:2,text:"小技巧",id:"小技巧"},{depth:2,text:"需要帮助？",id:"需要帮助"}],raw:`
+<p><img src="/getbiji-docs-v3/images/NvqGbWNRxo44nxx9UbBclhsZnEb.jpg" alt="Get笔记官方交流群二维码，微信扫码即可加入"></p>`,headings:[{depth:2,text:"是什么",id:"是什么"},{depth:2,text:"怎么用",id:"怎么用"},{depth:3,text:"第一步：获取 API 配置信息",id:"第一步获取-api-配置信息"},{depth:3,text:"第二步：调用 API",id:"第二步调用-api"},{depth:3,text:"第三步：选择接入方式",id:"第三步选择接入方式"},{depth:4,text:"在 Dify 中使用",id:"在-dify-中使用"},{depth:4,text:"在扣子中使用",id:"在扣子中使用"},{depth:2,text:"小技巧",id:"小技巧"},{depth:2,text:"需要帮助？",id:"需要帮助"}],raw:`
 # 开发者
 
 Get笔记提供开放 API，让你把知识库的 AI 搜索和召回能力接入自己的应用。不管你是做聊天机器人、内部知识助手，还是搭配 Dify、扣子等平台使用，都可以快速接入。
@@ -413,5 +413,5 @@ Get笔记知识库已上架[扣子插件商店](https://www.coze.cn/store/agent?
 
 扫码加入官方交流群，与其他开发者交流：
 
-![Get笔记官方交流群二维码，微信扫码即可加入](/getbiji-docs-v3/images/NvqGbWNRxo44nxx9UbBclhsZnEb.png)
+![Get笔记官方交流群二维码，微信扫码即可加入](/getbiji-docs-v3/images/NvqGbWNRxo44nxx9UbBclhsZnEb.jpg)
 `};export{n as default};

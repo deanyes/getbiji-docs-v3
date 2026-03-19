@@ -38,14 +38,14 @@ const n={frontmatter:{title:"分享和团队管理",description:"将知识库公
 <p><img src="/getbiji-docs-v3/images/D3SYbrjKBohUChxiiv9c6C8znGd.png" alt="公开分享页面，下方显示分享方式：微信好友、朋友圈、分享海报、复制链接等"></p>
 <p><img src="/getbiji-docs-v3/images/Q51RbOJRIoWBKTxDrVecld1inWf.png" alt="分享海报预览页面，显示知识库名称和二维码，可保存到手机相册"></p>
 <p>别人打开链接后，可以直接进入知识库浏览、搜索和使用 AI 问答。</p>
-<p><img src="/getbiji-docs-v3/images/VwGnbLgxroJr8qxNOZUcY06Mnsd.png" alt="他人通过链接访问的知识库页面，可浏览内容、搜索和使用 AI 功能"></p>
+<p><img src="/getbiji-docs-v3/images/VwGnbLgxroJr8qxNOZUcY06Mnsd.jpg" alt="他人通过链接访问的知识库页面，可浏览内容、搜索和使用 AI 功能"></p>
 <h4 id="网页端"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#网页端"><span class="icon icon-link"></span></a>网页端</h4>
 <p>进入知识库，点击右上角「分享」按钮，选择「公开」后复制链接即可。</p>
 <p><img src="/getbiji-docs-v3/images/Y5OpbZny5opHxrxArMRcXRrdnwg.png" alt="网页端分享设置弹窗，可切换私密/公开/团队模式，公开模式下显示分享链接可复制"></p>
 <h4 id="小程序端"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#小程序端"><span class="icon icon-link"></span></a>小程序端</h4>
 <p>在小程序中同样可以分享：进入知识库，点击右上角分享按钮，选择「公开」后通过微信分享。</p>
-<p><img src="/getbiji-docs-v3/images/YsAWb8XVOoSHALxfwLncVCOfnTe.png" alt="小程序端知识库页面，点击右上角分享按钮进入分享设置"></p>
-<p><img src="/getbiji-docs-v3/images/ZyO9bMXn9os3taxaU9PcEuO5nRh.png" alt="小程序分享设置页面，切换为「公开」模式"></p>
+<p><img src="/getbiji-docs-v3/images/YsAWb8XVOoSHALxfwLncVCOfnTe.jpg" alt="小程序端知识库页面，点击右上角分享按钮进入分享设置"></p>
+<p><img src="/getbiji-docs-v3/images/ZyO9bMXn9os3taxaU9PcEuO5nRh.jpg" alt="小程序分享设置页面，切换为「公开」模式"></p>
 <p><img src="/getbiji-docs-v3/images/OpyVb6LKqoDos8xQOiycR6P0nfe.png" alt="小程序公开分享页面，底部显示分享到微信好友、朋友圈等方式"></p>
 <p><img src="/getbiji-docs-v3/images/Y0PYbEQYtohVg7xTMQJc1k19nEe.png" alt="分享海报预览，包含知识库封面和小程序码"></p>
 <p><img src="/getbiji-docs-v3/images/Pb3Db8L16oEhRnxkOwDcQWn0nQf.png" alt="分享完成后他人收到的小程序卡片预览"></p>
@@ -214,7 +214,7 @@ const n={frontmatter:{title:"分享和团队管理",description:"将知识库公
 
 别人打开链接后，可以直接进入知识库浏览、搜索和使用 AI 问答。
 
-![他人通过链接访问的知识库页面，可浏览内容、搜索和使用 AI 功能](/getbiji-docs-v3/images/VwGnbLgxroJr8qxNOZUcY06Mnsd.png)
+![他人通过链接访问的知识库页面，可浏览内容、搜索和使用 AI 功能](/getbiji-docs-v3/images/VwGnbLgxroJr8qxNOZUcY06Mnsd.jpg)
 
 #### 网页端
 
@@ -226,9 +226,9 @@ const n={frontmatter:{title:"分享和团队管理",description:"将知识库公
 
 在小程序中同样可以分享：进入知识库，点击右上角分享按钮，选择「公开」后通过微信分享。
 
-![小程序端知识库页面，点击右上角分享按钮进入分享设置](/getbiji-docs-v3/images/YsAWb8XVOoSHALxfwLncVCOfnTe.png)
+![小程序端知识库页面，点击右上角分享按钮进入分享设置](/getbiji-docs-v3/images/YsAWb8XVOoSHALxfwLncVCOfnTe.jpg)
 
-![小程序分享设置页面，切换为「公开」模式](/getbiji-docs-v3/images/ZyO9bMXn9os3taxaU9PcEuO5nRh.png)
+![小程序分享设置页面，切换为「公开」模式](/getbiji-docs-v3/images/ZyO9bMXn9os3taxaU9PcEuO5nRh.jpg)
 
 ![小程序公开分享页面，底部显示分享到微信好友、朋友圈等方式](/getbiji-docs-v3/images/OpyVb6LKqoDos8xQOiycR6P0nfe.png)
 

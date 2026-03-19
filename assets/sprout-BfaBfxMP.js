@@ -56,7 +56,7 @@ const n={frontmatter:{title:"笔记发芽",description:"AI 深度理解你的录
 <h3 id="第三步查看发芽报告"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第三步查看发芽报告"><span class="icon icon-link"></span></a>第三步：查看发芽报告</h3>
 <p>点击右上角「发芽报告」，进入报告列表页查看所有报告详情。</p>
 <p><img src="/getbiji-docs-v3/images/NyhIbA8dCoGyvSxQSSkcGZ2Qn2f.png" alt="发芽报告列表页，展示历史生成的所有报告，按时间倒序排列"></p>
-<p><img src="/getbiji-docs-v3/images/Wxrsb4g3AowqcFxDI3JcZvhunjf.png" alt="发芽报告详情页，展示 AI 基于录音内容生成的跨学科关联分析"></p>
+<p><img src="/getbiji-docs-v3/images/Wxrsb4g3AowqcFxDI3JcZvhunjf.jpg" alt="发芽报告详情页，展示 AI 基于录音内容生成的跨学科关联分析"></p>
 <h3 id="第四步单条笔记发芽可选"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第四步单条笔记发芽可选"><span class="icon icon-link"></span></a>第四步：单条笔记发芽（可选）</h3>
 <p>每条录音卡笔记也可以单独发芽。在笔记的「...」更多操作里，点击「笔记发芽」，针对这一条笔记生成专属的发芽报告。</p>
 <p><img src="/getbiji-docs-v3/images/Oi4xbbviaod7G8xMzHWcKPnqneR.png" alt="笔记详情页的更多操作菜单，展示「笔记发芽」选项"></p>
@@ -154,7 +154,7 @@ const n={frontmatter:{title:"笔记发芽",description:"AI 深度理解你的录
 
 ![发芽报告列表页，展示历史生成的所有报告，按时间倒序排列](/getbiji-docs-v3/images/NyhIbA8dCoGyvSxQSSkcGZ2Qn2f.png)
 
-![发芽报告详情页，展示 AI 基于录音内容生成的跨学科关联分析](/getbiji-docs-v3/images/Wxrsb4g3AowqcFxDI3JcZvhunjf.png)
+![发芽报告详情页，展示 AI 基于录音内容生成的跨学科关联分析](/getbiji-docs-v3/images/Wxrsb4g3AowqcFxDI3JcZvhunjf.jpg)
 
 ### 第四步：单条笔记发芽（可选）
 

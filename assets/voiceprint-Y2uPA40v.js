@@ -20,7 +20,7 @@ const n={frontmatter:{title:"声纹识别",description:"录入你的声音后，
 <p>点击「录入我的声音」。</p>
 <p><img src="/getbiji-docs-v3/images/XJgcbQy2ZohCazxyI06cpc5yn5e.png" alt="声纹识别已开启状态，下方显示「录入我的声音」按钮，点击开始录制声纹样本"></p>
 <p>按照屏幕提示，朗读一段文字，让 AI 记住你的声音。</p>
-<p><img src="/getbiji-docs-v3/images/KY2wbf4o5oHpIJxp9KxcGcEInlc.png" alt="声纹录入界面，屏幕中央显示一段需要朗读的示范文字，底部有录音进度指示"></p>
+<p><img src="/getbiji-docs-v3/images/KY2wbf4o5oHpIJxp9KxcGcEInlc.jpg" alt="声纹录入界面，屏幕中央显示一段需要朗读的示范文字，底部有录音进度指示"></p>
 <h3 id="第四步完成"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第四步完成"><span class="icon icon-link"></span></a>第四步：完成</h3>
 <p>录入成功后，以后录音时你说的话会自动标上你的名字，其他人显示「说话人 2」「说话人 3」。</p>
 <p><img src="/getbiji-docs-v3/images/L69PbYPVhodftDxmzbucuppHnHh.png" alt="录音笔记的文字记录页面，每段发言前标注了说话人名称，用户本人显示真实姓名，其他人显示说话人2、说话人3"></p>
@@ -77,7 +77,7 @@ const n={frontmatter:{title:"声纹识别",description:"录入你的声音后，
 
 按照屏幕提示，朗读一段文字，让 AI 记住你的声音。
 
-![声纹录入界面，屏幕中央显示一段需要朗读的示范文字，底部有录音进度指示](/getbiji-docs-v3/images/KY2wbf4o5oHpIJxp9KxcGcEInlc.png)
+![声纹录入界面，屏幕中央显示一段需要朗读的示范文字，底部有录音进度指示](/getbiji-docs-v3/images/KY2wbf4o5oHpIJxp9KxcGcEInlc.jpg)
 
 ### 第四步：完成
 

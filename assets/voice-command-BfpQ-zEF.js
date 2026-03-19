@@ -22,7 +22,7 @@ const n={frontmatter:{title:"语音口令",description:"录音时说一句口令
 <li><strong>口令词</strong>：你要说的话，比如「帮我记一下」</li>
 <li><strong>处理方式</strong>：让 AI 怎么处理，比如「总结知识点」或「摘录原文」</li>
 </ul>
-<p><img src="/getbiji-docs-v3/images/KeMfbSdcQo5FpvxNn5ncFiUFnib.png" alt="新建口令弹窗，上方「口令词」输入框提示&quot;例如：帮我记一下&quot;，下方「具体要求描述」输入框提示&quot;告诉 AI 你想要什么结果&quot;，右上角有保存按钮"></p>
+<p><img src="/getbiji-docs-v3/images/KeMfbSdcQo5FpvxNn5ncFiUFnib.jpg" alt="新建口令弹窗，上方「口令词」输入框提示&quot;例如：帮我记一下&quot;，下方「具体要求描述」输入框提示&quot;告诉 AI 你想要什么结果&quot;，右上角有保存按钮"></p>
 <p>最多可以设 3 个口令词，每个可以有不同的处理方式。</p>
 <h3 id="第三步录音时说出口令词"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第三步录音时说出口令词"><span class="icon icon-link"></span></a>第三步：录音时说出口令词</h3>
 <p>正常录音时，需要标记就说出你设好的口令词。AI 会识别到口令，自动把前后的内容标记出来，按你设定的方式处理。</p>
@@ -94,7 +94,7 @@ const n={frontmatter:{title:"语音口令",description:"录音时说一句口令
 - **口令词**：你要说的话，比如「帮我记一下」
 - **处理方式**：让 AI 怎么处理，比如「总结知识点」或「摘录原文」
 
-![新建口令弹窗，上方「口令词」输入框提示"例如：帮我记一下"，下方「具体要求描述」输入框提示"告诉 AI 你想要什么结果"，右上角有保存按钮](/getbiji-docs-v3/images/KeMfbSdcQo5FpvxNn5ncFiUFnib.png)
+![新建口令弹窗，上方「口令词」输入框提示"例如：帮我记一下"，下方「具体要求描述」输入框提示"告诉 AI 你想要什么结果"，右上角有保存按钮](/getbiji-docs-v3/images/KeMfbSdcQo5FpvxNn5ncFiUFnib.jpg)
 
 最多可以设 3 个口令词，每个可以有不同的处理方式。
 

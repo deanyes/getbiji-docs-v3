@@ -16,7 +16,7 @@ const n={frontmatter:{title:"语音词库",description:"添加专有名词、人
 <ul>
 <li><strong>AI 推荐</strong>：AI 会根据你以往的笔记，推荐你可能需要的词，点一下就能添加</li>
 </ul>
-<p><img src="/getbiji-docs-v3/images/GI47b7kT8oXGk2xUDMpcqqMjnIh.png" alt="语音词库页面，上方「AI 推荐热词」区域展示 Figma、控制论、ClawCon 等推荐词，下方「我的词库」显示已添加的 6 个自定义词汇，底部有输入框可手动添加"></p>
+<p><img src="/getbiji-docs-v3/images/GI47b7kT8oXGk2xUDMpcqqMjnIh.jpg" alt="语音词库页面，上方「AI 推荐热词」区域展示 Figma、控制论、ClawCon 等推荐词，下方「我的词库」显示已添加的 6 个自定义词汇，底部有输入框可手动添加"></p>
 <ul>
 <li><strong>自己输入</strong>：在「自定义词库」里手动输入词汇，保存即可</li>
 </ul>
@@ -54,7 +54,7 @@ const n={frontmatter:{title:"语音词库",description:"添加专有名词、人
 
 - **AI 推荐**：AI 会根据你以往的笔记，推荐你可能需要的词，点一下就能添加
 
-![语音词库页面，上方「AI 推荐热词」区域展示 Figma、控制论、ClawCon 等推荐词，下方「我的词库」显示已添加的 6 个自定义词汇，底部有输入框可手动添加](/getbiji-docs-v3/images/GI47b7kT8oXGk2xUDMpcqqMjnIh.png)
+![语音词库页面，上方「AI 推荐热词」区域展示 Figma、控制论、ClawCon 等推荐词，下方「我的词库」显示已添加的 6 个自定义词汇，底部有输入框可手动添加](/getbiji-docs-v3/images/GI47b7kT8oXGk2xUDMpcqqMjnIh.jpg)
 
 - **自己输入**：在「自定义词库」里手动输入词汇，保存即可
 

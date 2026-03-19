@@ -10,9 +10,9 @@ const n={frontmatter:{title:"拍照记笔记",description:"拍几张照片，AI 
 <h2 id="怎么用"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#怎么用"><span class="icon icon-link"></span></a>怎么用</h2>
 <h3 id="第一步点选拍照或上传图片"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第一步点选拍照或上传图片"><span class="icon icon-link"></span></a>第一步：点「+」，选「拍照」或「上传图片」</h3>
 <p>打开 App，点击首页底部「+」按钮。</p>
-<p><img src="/getbiji-docs-v3/images/SLI3b0H0eoKbbexQz7PcHxCunHc.png" alt="Get 笔记首页，底部导航栏显示「+ 更多」「录音」「文字」三个按钮，「+ 更多」按钮用红色圆圈高亮标注"></p>
+<p><img src="/getbiji-docs-v3/images/SLI3b0H0eoKbbexQz7PcHxCunHc.jpg" alt="Get 笔记首页，底部导航栏显示「+ 更多」「录音」「文字」三个按钮，「+ 更多」按钮用红色圆圈高亮标注"></p>
 <p>选择「拍照」直接拍，或者「上传图片」从相册选。首次使用需要允许相册权限。一次最多选 10 张。</p>
-<p><img src="/getbiji-docs-v3/images/PP1xbChUooLKKxx0pQMcvHq4nsg.png" alt="「更多方式」底部弹出面板，列出粘贴链接、拍照、上传图片、线下会议录音、导入音视频、手机内录六个选项，其中「拍照」和「上传图片」两项用红框高亮标注"></p>
+<p><img src="/getbiji-docs-v3/images/PP1xbChUooLKKxx0pQMcvHq4nsg.jpg" alt="「更多方式」底部弹出面板，列出粘贴链接、拍照、上传图片、线下会议录音、导入音视频、手机内录六个选项，其中「拍照」和「上传图片」两项用红框高亮标注"></p>
 <h3 id="第二步选择整理方式"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第二步选择整理方式"><span class="icon icon-link"></span></a>第二步：选择整理方式</h3>
 <ul>
 <li><strong>智能总结</strong>：AI 自动判断最佳整理方式，90% 的场景选它就够</li>
@@ -48,11 +48,11 @@ const n={frontmatter:{title:"拍照记笔记",description:"拍几张照片，AI 
 
 打开 App，点击首页底部「+」按钮。
 
-![Get 笔记首页，底部导航栏显示「+ 更多」「录音」「文字」三个按钮，「+ 更多」按钮用红色圆圈高亮标注](/getbiji-docs-v3/images/SLI3b0H0eoKbbexQz7PcHxCunHc.png)
+![Get 笔记首页，底部导航栏显示「+ 更多」「录音」「文字」三个按钮，「+ 更多」按钮用红色圆圈高亮标注](/getbiji-docs-v3/images/SLI3b0H0eoKbbexQz7PcHxCunHc.jpg)
 
 选择「拍照」直接拍，或者「上传图片」从相册选。首次使用需要允许相册权限。一次最多选 10 张。
 
-![「更多方式」底部弹出面板，列出粘贴链接、拍照、上传图片、线下会议录音、导入音视频、手机内录六个选项，其中「拍照」和「上传图片」两项用红框高亮标注](/getbiji-docs-v3/images/PP1xbChUooLKKxx0pQMcvHq4nsg.png)
+![「更多方式」底部弹出面板，列出粘贴链接、拍照、上传图片、线下会议录音、导入音视频、手机内录六个选项，其中「拍照」和「上传图片」两项用红框高亮标注](/getbiji-docs-v3/images/PP1xbChUooLKKxx0pQMcvHq4nsg.jpg)
 
 ### 第二步：选择整理方式
 

@@ -10,23 +10,23 @@ const n={frontmatter:{title:"智能拍书",description:"拍下纸质书页自动
 <h2 id="怎么用"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#怎么用"><span class="icon icon-link"></span></a>怎么用</h2>
 <h3 id="第一步点选智能拍书"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第一步点选智能拍书"><span class="icon icon-link"></span></a>第一步：点「+」，选「智能拍书」</h3>
 <p>打开 App，点击首页底部「+」按钮，选择「智能拍书」。</p>
-<p><img src="/getbiji-docs-v3/images/FvHHbp50koL0YdxetNscbB76ngh.png" alt="「更多方式」底部弹出面板，列出粘贴链接、拍照、上传图片、线下会议录音、智能拍书、导入音视频、手机内录等选项，「智能拍书」带有 NEW 标签并用红框高亮标注，描述为「对准书页拍一下，自动提取归类到书籍」"></p>
+<p><img src="/getbiji-docs-v3/images/FvHHbp50koL0YdxetNscbB76ngh.jpg" alt="「更多方式」底部弹出面板，列出粘贴链接、拍照、上传图片、线下会议录音、智能拍书、导入音视频、手机内录等选项，「智能拍书」带有 NEW 标签并用红框高亮标注，描述为「对准书页拍一下，自动提取归类到书籍」"></p>
 <h3 id="第二步对着书页拍照"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第二步对着书页拍照"><span class="icon icon-link"></span></a>第二步：对着书页拍照</h3>
 <p>对准书页内容拍摄，AI 会自动矫正角度、去除阴影、优化清晰度。单次最多拍 5 张。</p>
-<p><img src="/getbiji-docs-v3/images/UsFtbm0HPoH8dTxaSL0cOHwrntf.png" alt="手机相机拍摄界面，对准一本纸质书的书页内容进行拍照，页面底部显示「重拍」和「使用照片」两个操作按钮"></p>
+<p><img src="/getbiji-docs-v3/images/UsFtbm0HPoH8dTxaSL0cOHwrntf.jpg" alt="手机相机拍摄界面，对准一本纸质书的书页内容进行拍照，页面底部显示「重拍」和「使用照片」两个操作按钮"></p>
 <h3 id="第三步确认书籍信息"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第三步确认书籍信息"><span class="icon icon-link"></span></a>第三步：确认书籍信息</h3>
 <p>AI 会自动识别是哪本书，右侧还会展示最近识别过的书籍。如果识别有误，可以手动搜索或添加。</p>
-<p><img src="/getbiji-docs-v3/images/TR5YbUwnWomziXxLwBYctoKLngg.png" alt="拍书预览页面，上方展示 AI 增强后的清晰书页文字，中间显示页码翻页控件和「继续拍」按钮，下方「添加到书籍」区域展示「自动识别书籍」（已勾选）以及最近阅读的书籍封面缩略图，底部提供「原图」和「增强」切换及「下一步」按钮"></p>
-<p><img src="/getbiji-docs-v3/images/Qdp9bfNp4om9j2xwM1qcnNNSnNb.png" alt="AI 自动识别书籍确认页面，上方显示增强后的书页文字内容，下方展示识别结果为《预测之书》（罗振宇编著，新星出版社），配有书籍封面图，底部提供「更换」和「确认」两个按钮"></p>
+<p><img src="/getbiji-docs-v3/images/TR5YbUwnWomziXxLwBYctoKLngg.jpg" alt="拍书预览页面，上方展示 AI 增强后的清晰书页文字，中间显示页码翻页控件和「继续拍」按钮，下方「添加到书籍」区域展示「自动识别书籍」（已勾选）以及最近阅读的书籍封面缩略图，底部提供「原图」和「增强」切换及「下一步」按钮"></p>
+<p><img src="/getbiji-docs-v3/images/Qdp9bfNp4om9j2xwM1qcnNNSnNb.jpg" alt="AI 自动识别书籍确认页面，上方显示增强后的书页文字内容，下方展示识别结果为《预测之书》（罗振宇编著，新星出版社），配有书籍封面图，底部提供「更换」和「确认」两个按钮"></p>
 <h3 id="第四步ai-处理并生成笔记"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第四步ai-处理并生成笔记"><span class="icon icon-link"></span></a>第四步：AI 处理并生成笔记</h3>
 <p>点下一步，AI 开始提取文字内容，确认书籍信息，生成结构化笔记。</p>
-<p><img src="/getbiji-docs-v3/images/CijpbVuHToBANlxqoKZc5h7Snpe.png" alt="《预测之书》的读书笔记详情页，顶部显示书籍封面、书名、作者和出版社信息，下方显示「1 条笔记」，笔记卡片内展示 AI 提取的书页文字内容摘要和原始书页缩略图"></p>
+<p><img src="/getbiji-docs-v3/images/CijpbVuHToBANlxqoKZc5h7Snpe.jpg" alt="《预测之书》的读书笔记详情页，顶部显示书籍封面、书名、作者和出版社信息，下方显示「1 条笔记」，笔记卡片内展示 AI 提取的书页文字内容摘要和原始书页缩略图"></p>
 <p>笔记会自动归类到对应书籍下，可以继续拍照或查看整理结果。</p>
-<p><img src="/getbiji-docs-v3/images/Qsgzbb0F2oi4v1xJ607cwBu0nmf.png" alt="AI 助手对话界面，显示「你好，我是你的 AI 助手」欢迎语，提供「合并生成笔记」「按时间轴整理内容」「输出一份 PPT 大纲」「生成问答卡片」等快捷操作，底部已选中《预测之书》（1 条笔记）作为对话的知识范围，旁边有「继续添加」按钮"></p>
+<p><img src="/getbiji-docs-v3/images/Qsgzbb0F2oi4v1xJ607cwBu0nmf.jpg" alt="AI 助手对话界面，显示「你好，我是你的 AI 助手」欢迎语，提供「合并生成笔记」「按时间轴整理内容」「输出一份 PPT 大纲」「生成问答卡片」等快捷操作，底部已选中《预测之书》（1 条笔记）作为对话的知识范围，旁边有「继续添加」按钮"></p>
 <h3 id="查看所有读书笔记"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#查看所有读书笔记"><span class="icon icon-link"></span></a>查看所有读书笔记</h3>
 <p>首页左上角菜单进入，所有书会以书籍封面的形式展示，点进去可以看这本书的全部笔记。</p>
-<p><img src="/getbiji-docs-v3/images/MwDwb123lobmX7xv7M0cnUfEnLd.png" alt="侧边栏个人中心页面，显示用户头像和 PRO 会员标识，统计数据（全部笔记、累计天数、连续天数），笔记热力图，以及日历、Get 日报、知识库、书籍等功能入口，「书籍」选项显示 186 本并用红框高亮标注"></p>
-<p><img src="/getbiji-docs-v3/images/TNa9b48yFoClTAxVPcXcn8g0nCc.png" alt="书籍列表页面，顶部显示「共 3713 条笔记 · 来自 186 本书」，以书籍封面网格形式展示所有书籍，包括《预测之书》《财经》《思考，快与慢》《你当像鸟飞往你的山》《北海怪兽》等，每本书下方标注笔记数量"></p>
+<p><img src="/getbiji-docs-v3/images/MwDwb123lobmX7xv7M0cnUfEnLd.jpg" alt="侧边栏个人中心页面，显示用户头像和 PRO 会员标识，统计数据（全部笔记、累计天数、连续天数），笔记热力图，以及日历、Get 日报、知识库、书籍等功能入口，「书籍」选项显示 186 本并用红框高亮标注"></p>
+<p><img src="/getbiji-docs-v3/images/TNa9b48yFoClTAxVPcXcn8g0nCc.jpg" alt="书籍列表页面，顶部显示「共 3713 条笔记 · 来自 186 本书」，以书籍封面网格形式展示所有书籍，包括《预测之书》《财经》《思考，快与慢》《你当像鸟飞往你的山》《北海怪兽》等，每本书下方标注笔记数量"></p>
 <h2 id="小技巧"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#小技巧"><span class="icon icon-link"></span></a>小技巧</h2>
 <ul>
 <li><strong>光线要好</strong>：光线充足时拍摄效果更好，避免手指遮挡重要文字</li>
@@ -53,39 +53,39 @@ const n={frontmatter:{title:"智能拍书",description:"拍下纸质书页自动
 
 打开 App，点击首页底部「+」按钮，选择「智能拍书」。
 
-![「更多方式」底部弹出面板，列出粘贴链接、拍照、上传图片、线下会议录音、智能拍书、导入音视频、手机内录等选项，「智能拍书」带有 NEW 标签并用红框高亮标注，描述为「对准书页拍一下，自动提取归类到书籍」](/getbiji-docs-v3/images/FvHHbp50koL0YdxetNscbB76ngh.png)
+![「更多方式」底部弹出面板，列出粘贴链接、拍照、上传图片、线下会议录音、智能拍书、导入音视频、手机内录等选项，「智能拍书」带有 NEW 标签并用红框高亮标注，描述为「对准书页拍一下，自动提取归类到书籍」](/getbiji-docs-v3/images/FvHHbp50koL0YdxetNscbB76ngh.jpg)
 
 ### 第二步：对着书页拍照
 
 对准书页内容拍摄，AI 会自动矫正角度、去除阴影、优化清晰度。单次最多拍 5 张。
 
-![手机相机拍摄界面，对准一本纸质书的书页内容进行拍照，页面底部显示「重拍」和「使用照片」两个操作按钮](/getbiji-docs-v3/images/UsFtbm0HPoH8dTxaSL0cOHwrntf.png)
+![手机相机拍摄界面，对准一本纸质书的书页内容进行拍照，页面底部显示「重拍」和「使用照片」两个操作按钮](/getbiji-docs-v3/images/UsFtbm0HPoH8dTxaSL0cOHwrntf.jpg)
 
 ### 第三步：确认书籍信息
 
 AI 会自动识别是哪本书，右侧还会展示最近识别过的书籍。如果识别有误，可以手动搜索或添加。
 
-![拍书预览页面，上方展示 AI 增强后的清晰书页文字，中间显示页码翻页控件和「继续拍」按钮，下方「添加到书籍」区域展示「自动识别书籍」（已勾选）以及最近阅读的书籍封面缩略图，底部提供「原图」和「增强」切换及「下一步」按钮](/getbiji-docs-v3/images/TR5YbUwnWomziXxLwBYctoKLngg.png)
+![拍书预览页面，上方展示 AI 增强后的清晰书页文字，中间显示页码翻页控件和「继续拍」按钮，下方「添加到书籍」区域展示「自动识别书籍」（已勾选）以及最近阅读的书籍封面缩略图，底部提供「原图」和「增强」切换及「下一步」按钮](/getbiji-docs-v3/images/TR5YbUwnWomziXxLwBYctoKLngg.jpg)
 
-![AI 自动识别书籍确认页面，上方显示增强后的书页文字内容，下方展示识别结果为《预测之书》（罗振宇编著，新星出版社），配有书籍封面图，底部提供「更换」和「确认」两个按钮](/getbiji-docs-v3/images/Qdp9bfNp4om9j2xwM1qcnNNSnNb.png)
+![AI 自动识别书籍确认页面，上方显示增强后的书页文字内容，下方展示识别结果为《预测之书》（罗振宇编著，新星出版社），配有书籍封面图，底部提供「更换」和「确认」两个按钮](/getbiji-docs-v3/images/Qdp9bfNp4om9j2xwM1qcnNNSnNb.jpg)
 
 ### 第四步：AI 处理并生成笔记
 
 点下一步，AI 开始提取文字内容，确认书籍信息，生成结构化笔记。
 
-![《预测之书》的读书笔记详情页，顶部显示书籍封面、书名、作者和出版社信息，下方显示「1 条笔记」，笔记卡片内展示 AI 提取的书页文字内容摘要和原始书页缩略图](/getbiji-docs-v3/images/CijpbVuHToBANlxqoKZc5h7Snpe.png)
+![《预测之书》的读书笔记详情页，顶部显示书籍封面、书名、作者和出版社信息，下方显示「1 条笔记」，笔记卡片内展示 AI 提取的书页文字内容摘要和原始书页缩略图](/getbiji-docs-v3/images/CijpbVuHToBANlxqoKZc5h7Snpe.jpg)
 
 笔记会自动归类到对应书籍下，可以继续拍照或查看整理结果。
 
-![AI 助手对话界面，显示「你好，我是你的 AI 助手」欢迎语，提供「合并生成笔记」「按时间轴整理内容」「输出一份 PPT 大纲」「生成问答卡片」等快捷操作，底部已选中《预测之书》（1 条笔记）作为对话的知识范围，旁边有「继续添加」按钮](/getbiji-docs-v3/images/Qsgzbb0F2oi4v1xJ607cwBu0nmf.png)
+![AI 助手对话界面，显示「你好，我是你的 AI 助手」欢迎语，提供「合并生成笔记」「按时间轴整理内容」「输出一份 PPT 大纲」「生成问答卡片」等快捷操作，底部已选中《预测之书》（1 条笔记）作为对话的知识范围，旁边有「继续添加」按钮](/getbiji-docs-v3/images/Qsgzbb0F2oi4v1xJ607cwBu0nmf.jpg)
 
 ### 查看所有读书笔记
 
 首页左上角菜单进入，所有书会以书籍封面的形式展示，点进去可以看这本书的全部笔记。
 
-![侧边栏个人中心页面，显示用户头像和 PRO 会员标识，统计数据（全部笔记、累计天数、连续天数），笔记热力图，以及日历、Get 日报、知识库、书籍等功能入口，「书籍」选项显示 186 本并用红框高亮标注](/getbiji-docs-v3/images/MwDwb123lobmX7xv7M0cnUfEnLd.png)
+![侧边栏个人中心页面，显示用户头像和 PRO 会员标识，统计数据（全部笔记、累计天数、连续天数），笔记热力图，以及日历、Get 日报、知识库、书籍等功能入口，「书籍」选项显示 186 本并用红框高亮标注](/getbiji-docs-v3/images/MwDwb123lobmX7xv7M0cnUfEnLd.jpg)
 
-![书籍列表页面，顶部显示「共 3713 条笔记 · 来自 186 本书」，以书籍封面网格形式展示所有书籍，包括《预测之书》《财经》《思考，快与慢》《你当像鸟飞往你的山》《北海怪兽》等，每本书下方标注笔记数量](/getbiji-docs-v3/images/TNa9b48yFoClTAxVPcXcn8g0nCc.png)
+![书籍列表页面，顶部显示「共 3713 条笔记 · 来自 186 本书」，以书籍封面网格形式展示所有书籍，包括《预测之书》《财经》《思考，快与慢》《你当像鸟飞往你的山》《北海怪兽》等，每本书下方标注笔记数量](/getbiji-docs-v3/images/TNa9b48yFoClTAxVPcXcn8g0nCc.jpg)
 
 ## 小技巧
 

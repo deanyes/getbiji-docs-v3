@@ -18,7 +18,7 @@ const n={frontmatter:{title:"导入音视频",description:"导入手机中已有
 <h3 id="第三步等-ai-处理"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第三步等-ai-处理"><span class="icon icon-link"></span></a>第三步：等 AI 处理</h3>
 <p>上传后 AI 会自动分析文件内容，选择最合适的模板进行整理。处理时间取决于文件长度，可以先去做别的。</p>
 <p><img src="/getbiji-docs-v3/images/HSnmbbeTioy0hixLeOBcC8JYnsb.png" alt="「导入音视频文件」弹窗，显示已上传的音频文件及「上传成功」状态，下方说明支持会议、课堂讲座、播客素材等类型，并显示转写时长额度信息"></p>
-<p><img src="/getbiji-docs-v3/images/TzTkbRCEkobbTJxE4fycdR6znBg.png" alt="AI 正在处理音频，顶部显示「文件上传 → 录音转写 → 总结纪要」三步进度条，下方展示逐句转写的文字内容，带有说话人标识和时间戳"></p>
+<p><img src="/getbiji-docs-v3/images/TzTkbRCEkobbTJxE4fycdR6znBg.jpg" alt="AI 正在处理音频，顶部显示「文件上传 → 录音转写 → 总结纪要」三步进度条，下方展示逐句转写的文字内容，带有说话人标识和时间戳"></p>
 <h3 id="第四步查看笔记"><a class="heading-anchor" aria-hidden="" tabindex="-1" href="#第四步查看笔记"><span class="icon icon-link"></span></a>第四步：查看笔记</h3>
 <p>AI 会生成完整的文字稿和总结笔记。</p>
 <p><img src="/getbiji-docs-v3/images/PyMjbDeyCoI71IxqO3mcFQdxn6i.png" alt="iOS 系统文件选择器界面，标题为「最近项目」，列表中显示多个音视频文件（包括录音、录屏、视频等），可选择要导入的文件"></p>
@@ -94,7 +94,7 @@ const n={frontmatter:{title:"导入音视频",description:"导入手机中已有
 
 ![「导入音视频文件」弹窗，显示已上传的音频文件及「上传成功」状态，下方说明支持会议、课堂讲座、播客素材等类型，并显示转写时长额度信息](/getbiji-docs-v3/images/HSnmbbeTioy0hixLeOBcC8JYnsb.png)
 
-![AI 正在处理音频，顶部显示「文件上传 → 录音转写 → 总结纪要」三步进度条，下方展示逐句转写的文字内容，带有说话人标识和时间戳](/getbiji-docs-v3/images/TzTkbRCEkobbTJxE4fycdR6znBg.png)
+![AI 正在处理音频，顶部显示「文件上传 → 录音转写 → 总结纪要」三步进度条，下方展示逐句转写的文字内容，带有说话人标识和时间戳](/getbiji-docs-v3/images/TzTkbRCEkobbTJxE4fycdR6znBg.jpg)
 
 ### 第四步：查看笔记
 
