@@ -1,1 +1,0 @@
-import{_ as l,o as a,c as e,ae as t}from"./chunks/framework.BYtbL_BM.js";const p=JSON.parse('{"title":"Hi，欢迎来到 Get 笔记","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),r={name:"index.md"};function o(h,i,n,d,u,s){return a(),e("div",null,[...i[0]||(i[0]=[t("",20)])])}const _=l(r,[["render",o]]);export{p as __pageData,_ as default};
