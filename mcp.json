@@ -8,14 +8,12 @@
       "description": "",
       "headings": [
         "iOS",
-        "v2.x.x",
+        "v2.6.5（2026-03-11）",
         "Android",
-        "v2.x.x",
-        "HarmonyOS",
-        "v1.x.x"
+        "最新版本"
       ],
       "tags": [],
-      "content": "# 版本更新\n\nGet笔记 各平台更新记录。\n\n## iOS\n\n### v2.x.x\n\n- 新增课堂录音功能\n- 新增语音口令功能\n- 优化录音稳定性\n\n[查看完整更新记录](/changelog/ios)\n\n## Android\n\n### v2.x.x\n\n- 新增课堂录音功能\n- 新增手机内录功能\n- 修复已知问题\n\n[查看完整更新记录](/changelog/android)\n\n## HarmonyOS\n\n### v1.x.x\n\n- 华为鸿蒙版本上线\n- 支持核心录音功能\n\n[查看完整更新记录](/changelog/harmonyos)\n\n---\n\n> 💡 想要什么新功能？可以在 App 内反馈给我们。\n"
+      "content": "\n# 版本更新\n\nGet笔记 各平台更新记录。\n\n---\n\n## iOS\n\n### v2.6.5（2026-03-11）\n\n- 复制录音文字记录时，支持选择「原文版」或「AI优化版」\n- 录音卡连接体验优化，新增使用说明和故障排查提醒\n- 录音卡新增电量说明、指示灯状态说明，低电量时自动提醒充电\n- 修复若干已知问题\n\n---\n\n## Android\n\n### 最新版本\n\n- 功能与 iOS 基本同步\n- 持续优化中\n\n---\n\n> 💡 想要什么新功能？可以在 App 内反馈给我们。\n"
     },
     {
       "url": "/developer",
