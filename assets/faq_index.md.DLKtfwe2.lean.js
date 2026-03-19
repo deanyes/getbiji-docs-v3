@@ -1,0 +1,1 @@
+import{_ as e,o as r,c as t,ae as i}from"./chunks/framework.BYtbL_BM.js";const q=JSON.parse('{"title":"常见问题","description":"","frontmatter":{},"headers":[],"relativePath":"faq/index.md","filePath":"faq/index.md"}'),l={name:"faq/index.md"};function o(n,a,h,d,s,u){return r(),t("div",null,[...a[0]||(a[0]=[i("",29)])])}const p=e(l,[["render",o]]);export{q as __pageData,p as default};
