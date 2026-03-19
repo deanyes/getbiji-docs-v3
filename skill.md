@@ -26,6 +26,7 @@ This is the documentation for **Get笔记帮助中心**. It is a static document
 - **[版本更新](/changelog)**
 - **[iOS 版本更新](/changelog/ios)**
 - **[常见问题](/faq)** — 使用 Get笔记时遇到问题？这里有最常见问题的解答
+- **[Get笔记 Skill](/faq/skill)** — OpenClaw/小龙虾 Get笔记技能安装使用指南
 - **[设备指南](/getseed/device)** — GetSeed 录音卡的设备清单、按键说明、指示灯含义、充电方式、参数规格、开关机和重置操作
 - **[常见问题](/getseed/faq)** — GetSeed 录音卡的常见问题解答：设备连接、录音使用、充电续航、通话录音、会员权益、隐私安全等
 - **[功能说明](/getseed)** — GetSeed 录音卡的核心功能介绍：一键 MARK 标记重点、录音中拍照随手记、闪念灵感记录、固件升级

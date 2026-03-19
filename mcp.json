@@ -197,6 +197,34 @@
       "content": "\n# 常见问题\n\n遇到问题？先看看这里能不能找到答案。\n\n## 账号相关\n\n### 支持哪些登录方式？\n\n支持三种方式：**手机号**、**微信**、**Apple ID**。注册后登录同一账号，所有设备的数据会自动同步。\n\n### 怎么开通会员？\n\n打开 App → 点击右上角头像 → 进入「会员中心」→ 选择套餐开通。\n\n### 会员和免费版有什么区别？\n\n| | 免费版 | 会员版 |\n|---|-------|-------|\n| 单次录音时长 | 最长 10 分钟 | 最长 60 分钟 |\n| 存储空间 | 30GB | 500GB |\n| 知识库数量 | 最多 10 个 | 不限 |\n| 声纹识别 | 不支持 | 支持 |\n| 语音口令 | 不支持 | 支持 |\n| API 使用 | 不支持 | 支持 |\n\n## 录音相关\n\n### 录音突然中断了怎么办？\n\n最常见的原因是你切换到了其他 App，那个 App 抢占了麦克风。解决方法：回到 Get笔记，点「继续录制」即可。\n\n> 小提示：录音时尽量不要切换到其他需要麦克风的 App（比如微信语音通话）。\n\n### 支持哪些语言和方言？\n\n支持**普通话**和 **27 种方言**，包括：粤语、四川话、上海话、武汉话、西安话、南京话、杭州话、天津话等。\n\n### 录音转文字准确吗？\n\nAI 转写准确率在 **95% 以上**。如果你经常说一些专业术语或生僻词，可以通过[语音词库](/recording/vocabulary)提前添加，AI 就能识别得更准。\n\n### 录音文件很大，同步很慢？\n\n长时间录音文件确实比较大。建议在 **Wi-Fi 环境**下同步，速度会快很多。\n\n## 知识库相关\n\n### 知识库能存多少内容？\n\n- **免费版**：最多 10 个知识库，总共 30GB\n- **会员版**：不限知识库数量，总共 500GB\n\n### 上传文件支持什么格式？\n\n支持以下格式：\n\n- **PDF** 文件\n- **Word** 文件（.doc / .docx）\n- **PPT** 文件（.ppt / .pptx）\n\n单个文件最大 **200MB**。\n\n## 数据与安全\n\n### 我的数据安全吗？\n\n所有数据**加密存储**，不会被用于训练 AI 模型。\n\n### 可以导出数据吗？\n\n可以。打开[网页版](https://www.biji.com)，支持导出全部笔记为 HTML 文件。\n\n## 其他问题\n\n### 有桌面版吗？\n\n目前没有桌面客户端。你可以用网页版 [biji.com](https://www.biji.com) 在电脑上使用，体验和 App 基本一致。\n\n### 怎么联系客服？\n\n两种方式：\n\n1. **App 内**：点击右上角头像 → 「帮助与反馈」\n2. **邮箱**：发送邮件到 [support@biji.com](mailto:support@biji.com)\n\n---\n\n没有找到你的问题？试试 App 内的「帮助与反馈」，客服会在 24 小时内回复。\n"
     },
     {
+      "url": "/faq/skill",
+      "title": "Get笔记 Skill",
+      "description": "OpenClaw/小龙虾 Get笔记技能安装使用指南",
+      "headings": [
+        "快速安装",
+        "常见问题",
+        "🐛 Bug 类问题",
+        "1. 笔记删除后直接彻底删除，未进回收站",
+        "2. NAS 上安装 Skill 失败，云服务器正常",
+        "3. 技能装入 Coze 后持续报 403",
+        "4. 安装/配置后 API 返回 pong 或者 503 错误",
+        "💡 日常使用问题",
+        "1. 安装/配置流程不会操作，手机能用吗？",
+        "2. 是否需要会员才能使用",
+        "3. Skill 能读取录音卡内容吗？",
+        "4. Skill 能管理知识库吗？",
+        "5. 能安装到 EasyClaw / Kimi Claw 上吗？",
+        "6. 能否一个 OpenClaw 对接两个账号？",
+        "7. 没有看到官方技能包入口",
+        "8. API Key 安全性",
+        "9. Skill 能精准读取所有笔记数据吗？",
+        "10. Skill 可以看视频总结功能吗？",
+        "官方资源"
+      ],
+      "tags": [],
+      "content": "\n# Get笔记 Skill\n\nGet笔记 Skill 让你通过 OpenClaw（小龙虾）AI 助手直接管理笔记和知识库。\n\n## 快速安装\n\n复制以下内容发给小龙虾，即可快速安装：\n\n```\n请安装 Get笔记 技能，帮我记录和查找笔记。\n技能地址：https://clawhub.ai/iswalle/getnote\nAPI Key 获取：https://www.biji.com/openapi\n```\n\n---\n\n## 常见问题\n\n### 🐛 Bug 类问题\n\n#### 1. 笔记删除后直接彻底删除，未进回收站\n\n让小龙虾将某条笔记删除到回收站，笔记会被彻底删除，回收站为空，存在严重误删风险。\n\n**解决方案**：小龙虾删除的所有笔记都会进入回收站，可以在 Get笔记 App 打开侧边栏，点回收站查看，也可以在回收站选择恢复或者彻底删除。\n\n#### 2. NAS 上安装 Skill 失败，云服务器正常\n\n在 NAS 上安装 Get笔记技能无法成功，换到云服务器则可以正常安装。\n\n**解决方案**：出于安全，建议使用 Mac 设备或者购买云服务版，Get笔记 Skill 本身不限制安装设备。\n\n#### 3. 技能装入 Coze 后持续报 403\n\n将 Skill 部署到扣子（Coze）平台后，调用一直返回 403 错误。\n\n**解决方案**：Coze 等相关平台配置建议参考 [OpenAPI 开发文档](https://www.biji.com/openapi) 调用相关 API，点击\"使用文档\"Tab。\n\n#### 4. 安装/配置后 API 返回 pong 或者 503 错误\n\n已开通会员、新建 API Key 并填写 Client ID，仍报「API 权限不够」「返回都是 pong 或者返回 503 错误」。\n\n**解决方案**：\n\n这种情况可能是小龙虾开启网络搜索用了错误的 API 配置，建议：\n\n1. 告诉小龙虾：请严格按照 Skill.md 进行 API 调用，详情参考\"快速决策\"部分\n2. 告诉小龙虾卸载\"Get笔记\"Skill，然后重新安装：`帮我安装 Get笔记 skill，地址是 https://raw.githubusercontent.com/iswalle/getnote-openclaw/main/SKILL.md`\n\n---\n\n### 💡 日常使用问题\n\n#### 1. 安装/配置流程不会操作，手机能用吗？\n\n关于 OpenClaw 的基础安装配置，可以参考得到 AI 学习圈相关视频教程，安装成功后再配置 Get笔记 Skill。\n\n#### 2. 是否需要会员才能使用\n\n**是的**，Get笔记 Skill 安装后，调用相关能力仅限会员身份的账户使用。\n\n#### 3. Skill 能读取录音卡内容吗？\n\n**可以**读取包含录音卡录音笔记在内的所有笔记内容，也可以理解为您在 App 上看到的所有笔记，都可以读取。\n\n#### 4. Skill 能管理知识库吗？\n\n**可以**通过该 Skill 完成知识库创建、笔记加入或移除等知识库相关的操作，可以试试：\n\n- 把 XX 链接帮我保存到 XX 知识库\n\n#### 5. 能安装到 EasyClaw / Kimi Claw 上吗？\n\n理论上 OpenClaw 衍生的相关云服务都是支持的。\n\n#### 6. 能否一个 OpenClaw 对接两个账号？\n\n**不建议**这么做，因为两个账号之间的安全隔离比较难做。如果真的有需求，建议创建不同的 Agent，并在不同的 Agent 内配置不同的 Get笔记 Skill 对应 API Key。\n\n#### 7. 没有看到官方技能包入口\n\n可以使用以下任意一个方式安装：\n\n- `请安装 Get笔记 技能，技能地址：https://clawhub.ai/iswalle/getnote`\n- `帮我安装 Get笔记 skill，地址是 https://raw.githubusercontent.com/iswalle/getnote-openclaw/main/SKILL.md`\n\n#### 8. API Key 安全性\n\nAPI Key 只会在生成时显示一次，请妥善保管：\n\n- 建议写入小龙虾配置文件内\n- 不要提交到公开的代码仓库\n- 不要和朋友共享\n\n如果怀疑泄露，请立即登录 [管理后台](https://www.biji.com/openapi)，点击\"作废\"。\n\n#### 9. Skill 能精准读取所有笔记数据吗？\n\n**可以**读取包含录音卡录音笔记在内的所有笔记内容，也可以读取录音笔记、链接笔记的原始内容，可以试试：\n\n- 帮我查看一下 XX 笔记的原始内容是什么\n\n#### 10. Skill 可以看视频总结功能吗？\n\n**可以**，能够读取所有类型笔记的内容总结，包括上传的音视频生成的笔记。\n\n---\n\n## 官方资源\n\n| 类型 | 地址 |\n|-----|------|\n| Skill 安装地址 | https://clawhub.ai/iswalle/getnote |\n| GitHub（OpenClaw） | https://github.com/iswalle/getnote-openclaw |\n| GitHub（MCP） | https://github.com/iswalle/getnote-mcp |\n| API Key 管理 | https://www.biji.com/openapi |\n"
+    },
+    {
       "url": "/getseed/device",
       "title": "设备指南",
       "description": "GetSeed 录音卡的设备清单、按键说明、指示灯含义、充电方式、参数规格、开关机和重置操作",
