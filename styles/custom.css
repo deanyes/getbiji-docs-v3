@@ -1,0 +1,85 @@
+/* 全局样式 */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { -webkit-font-smoothing: antialiased; }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+
+/* 增强分组标题样式 */
+nav > div {
+  margin-top: 20px !important;
+  padding-top: 16px !important;
+  border-top: 1px solid #e5e5e5 !important;
+}
+nav > div:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  border-top: none !important;
+}
+nav > div > button:first-child {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  color: #333 !important;
+  letter-spacing: 0.05em !important;
+  padding: 10px !important;
+  margin-bottom: 4px !important;
+}
+
+/* 限制文档中图片的最大宽度 */
+#tome-root .tome-content img {
+  max-width: 375px !important;
+  height: auto !important;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+}
+
+/* ── 文档页脚区域间距压缩 ──
+ * Tome Shell.tsx 的 <main> 内部结构（均为直接子元素）：
+ *   <nav>                        → 面包屑（可选）
+ *   <h1>                         → 页面标题
+ *   <div> 含 .tome-content       → 正文内容
+ *   <div> marginTop:40           → 编辑链接 / 最后更新（可选）
+ *   <div> marginTop:24           → 反馈按钮
+ *   <div> marginTop:16 padTop:24 → 上一篇 / 下一篇导航
+ * 所有间距均为 inline style，需 !important 覆盖。
+ */
+
+/* 缩减 <main> 底部内边距（原值 desktop 80px / mobile 60px）
+ * 底部导航的间距完全由此 padding 控制，不依赖子元素 margin-bottom
+ * （flex 布局中末尾子元素的 margin-bottom 不一定产生滚动空间） */
+main {
+  padding-bottom: 80px !important;
+}
+@media (max-width: 768px) {
+  main {
+    padding-bottom: 80px !important;
+  }
+}
+
+/* flex 滚动容器中 main 的 padding-bottom 不计入 scrollHeight，
+ * 用伪元素撑出等效的底部空间 */
+main::after {
+  content: '';
+  display: block;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+/* 编辑链接 / 最后更新行（原值 marginTop: 40px） */
+main > div:has([data-testid="edit-page-link"]),
+main > div:has([data-testid="last-updated"]) {
+  margin-top: 24px !important;
+}
+
+/* 反馈按钮行（倒数第 2 个 div，原值 marginTop: 24px） */
+main > div:nth-last-of-type(2) {
+  margin-top: 8px !important;
+}
+
+/* 上一篇 / 下一篇导航（最后一个 div，原值 marginTop: 16px + paddingTop: 24px） */
+main > div:last-of-type {
+  margin-top: 8px !important;
+  padding-top: 16px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "getbiji-docs-tome",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tome dev",
+    "build": "tome build",
+    "build:ghpages": "bash scripts/build.sh",
+    "deploy": "npx gh-pages -d out"
+  },
+  "devDependencies": {
+    "@tomehq/cli": "^0.3.2",
+    "@tomehq/theme": "^0.3.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

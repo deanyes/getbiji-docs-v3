@@ -1,0 +1,121 @@
+---
+title: Get笔记 Skill
+description: OpenClaw/小龙虾 Get笔记技能安装使用指南
+---
+
+# Get笔记 Skill
+
+Get笔记 Skill 让你通过 OpenClaw（小龙虾）AI 助手直接管理笔记和知识库。
+
+## 快速安装
+
+复制以下内容发给小龙虾，即可快速安装：
+
+```
+请安装 Get笔记 技能，帮我记录和查找笔记。
+技能地址：https://clawhub.ai/iswalle/getnote
+API Key 获取：https://www.biji.com/openapi
+```
+
+---
+
+## 常见问题
+
+### 🐛 Bug 类问题
+
+#### 1. 笔记删除后直接彻底删除，未进回收站
+
+让小龙虾将某条笔记删除到回收站，笔记会被彻底删除，回收站为空，存在严重误删风险。
+
+**解决方案**：小龙虾删除的所有笔记都会进入回收站，可以在 Get笔记 App 打开侧边栏，点回收站查看，也可以在回收站选择恢复或者彻底删除。
+
+#### 2. NAS 上安装 Skill 失败，云服务器正常
+
+在 NAS 上安装 Get笔记技能无法成功，换到云服务器则可以正常安装。
+
+**解决方案**：出于安全，建议使用 Mac 设备或者购买云服务版，Get笔记 Skill 本身不限制安装设备。
+
+#### 3. 技能装入 Coze 后持续报 403
+
+将 Skill 部署到扣子（Coze）平台后，调用一直返回 403 错误。
+
+**解决方案**：Coze 等相关平台配置建议参考 [OpenAPI 开发文档](https://www.biji.com/openapi) 调用相关 API，点击"使用文档"Tab。
+
+#### 4. 安装/配置后 API 返回 pong 或者 503 错误
+
+已开通会员、新建 API Key 并填写 Client ID，仍报「API 权限不够」「返回都是 pong 或者返回 503 错误」。
+
+**解决方案**：
+
+这种情况可能是小龙虾开启网络搜索用了错误的 API 配置，建议：
+
+1. 告诉小龙虾：请严格按照 Skill.md 进行 API 调用，详情参考"快速决策"部分
+2. 告诉小龙虾卸载"Get笔记"Skill，然后重新安装：`帮我安装 Get笔记 skill，地址是 https://raw.githubusercontent.com/iswalle/getnote-openclaw/main/SKILL.md`
+
+---
+
+### 💡 日常使用问题
+
+#### 1. 安装/配置流程不会操作，手机能用吗？
+
+关于 OpenClaw 的基础安装配置，可以参考得到 AI 学习圈相关视频教程，安装成功后再配置 Get笔记 Skill。
+
+#### 2. 是否需要会员才能使用
+
+**是的**，Get笔记 Skill 安装后，调用相关能力仅限会员身份的账户使用。
+
+#### 3. Skill 能读取录音卡内容吗？
+
+**可以**读取包含录音卡录音笔记在内的所有笔记内容，也可以理解为您在 App 上看到的所有笔记，都可以读取。
+
+#### 4. Skill 能管理知识库吗？
+
+**可以**通过该 Skill 完成知识库创建、笔记加入或移除等知识库相关的操作，可以试试：
+
+- 把 XX 链接帮我保存到 XX 知识库
+
+#### 5. 能安装到 EasyClaw / Kimi Claw 上吗？
+
+理论上 OpenClaw 衍生的相关云服务都是支持的。
+
+#### 6. 能否一个 OpenClaw 对接两个账号？
+
+**不建议**这么做，因为两个账号之间的安全隔离比较难做。如果真的有需求，建议创建不同的 Agent，并在不同的 Agent 内配置不同的 Get笔记 Skill 对应 API Key。
+
+#### 7. 没有看到官方技能包入口
+
+可以使用以下任意一个方式安装：
+
+- `请安装 Get笔记 技能，技能地址：https://clawhub.ai/iswalle/getnote`
+- `帮我安装 Get笔记 skill，地址是 https://raw.githubusercontent.com/iswalle/getnote-openclaw/main/SKILL.md`
+
+#### 8. API Key 安全性
+
+API Key 只会在生成时显示一次，请妥善保管：
+
+- 建议写入小龙虾配置文件内
+- 不要提交到公开的代码仓库
+- 不要和朋友共享
+
+如果怀疑泄露，请立即登录 [管理后台](https://www.biji.com/openapi)，点击"作废"。
+
+#### 9. Skill 能精准读取所有笔记数据吗？
+
+**可以**读取包含录音卡录音笔记在内的所有笔记内容，也可以读取录音笔记、链接笔记的原始内容，可以试试：
+
+- 帮我查看一下 XX 笔记的原始内容是什么
+
+#### 10. Skill 可以看视频总结功能吗？
+
+**可以**，能够读取所有类型笔记的内容总结，包括上传的音视频生成的笔记。
+
+---
+
+## 官方资源
+
+| 类型 | 地址 |
+|-----|------|
+| Skill 安装地址 | https://clawhub.ai/iswalle/getnote |
+| GitHub（OpenClaw） | https://github.com/iswalle/getnote-openclaw |
+| GitHub（MCP） | https://github.com/iswalle/getnote-mcp |
+| API Key 管理 | https://www.biji.com/openapi |
