@@ -2,7 +2,10 @@
 
 > Documentation site powered by Tome
 
+- [Android 版本更新](/changelog/android)
+- [HarmonyOS 版本更新](/changelog/harmonyos)
 - [版本更新](/changelog)
+- [iOS 版本更新](/changelog/ios)
 - [开发者](/developer) - 通过 API 把 Get笔记的知识库能力接入你的应用，支持直接调用、Dify、扣子等多种方式
 - [常见问题](/faq) - 使用 Get笔记时遇到问题？这里有最常见问题的解答
 - [设备指南](/getseed/device) - GetSeed 录音卡的设备清单、按键说明、指示灯含义、充电方式、参数规格、开关机和重置操作
