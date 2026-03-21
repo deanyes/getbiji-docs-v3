@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "tome dev",
-    "build": "tome build",
+    "build": "tome build && node scripts/inject-logo.js",
     "build:ghpages": "bash scripts/build.sh",
     "deploy": "npx gh-pages -d out"
   },

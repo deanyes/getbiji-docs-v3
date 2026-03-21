@@ -21,13 +21,14 @@ const accentColor = config.theme?.accent || '#1a1a1a';
 // 从配置读取 basePath，用于修正侧边栏链接
 const basePath = config.basePath || '/';
 
-if (!showLogo) {
-  console.log('Logo disabled.');
-  process.exit(0);
-}
+// Logo 注入需要 showLogo=true 且 logo.svg 存在
+const hasLogo = showLogo && existsSync(join(outDir, 'logo.svg'));
+if (!showLogo) console.log('Logo disabled.');
+else if (!hasLogo) console.log('No logo.svg found.');
 
-if (!existsSync(join(outDir, 'logo.svg'))) {
-  console.log('No logo.svg found.');
+// 如果没有 logo 也不需要修正侧边栏链接，则无需注入任何内容
+if (!hasLogo && basePath === '/') {
+  console.log('Nothing to inject.');
   process.exit(0);
 }
 
@@ -53,11 +54,7 @@ function getLogoRelPath(htmlFile) {
 }
 
 function buildSnippet(logoRelPath) {
-  return `
-<style>
-  :root {
-    --ac: ${accentColor} !important;
-  }
+  const logoStyle = hasLogo ? `
   /* Tome sidebar: aside > a[href="/"] 是站点标题链接（无 class，纯 inline style） */
   aside > a[href="/"] {
     display: flex !important;
@@ -69,33 +66,14 @@ function buildSnippet(logoRelPath) {
     height: 28px;
     flex-shrink: 0;
     border-radius: 4px;
-  }
-</style>
-<script>
-  (function() {
-    var accentColor = ${JSON.stringify(accentColor)};
-    var basePath = ${JSON.stringify(basePath)};
+  }` : '';
 
-    // P1-fix#3: 用 MutationObserver 替代 setInterval(50ms)，只在变化时修正
-    function applyAccent() {
-      document.documentElement.style.setProperty('--ac', accentColor, 'important');
-    }
-    applyAccent();
-
+  const logoJs = hasLogo ? `
     // 构建时已根据文件深度计算好相对路径，不再依赖运行时 getBasePath()
     var logoUrl = new URL(${JSON.stringify(logoRelPath)}, document.baseURI).href;
 
     function findSidebarLink() {
       return document.querySelector('aside a[href]');
-    }
-
-    // 修正侧边栏顶部链接的 href，从 '/' 改成 basePath
-    function fixSidebarLink() {
-      if (basePath === '/') return;
-      var link = document.querySelector('aside > a[href="/"]');
-      if (link) {
-        link.setAttribute('href', basePath);
-      }
     }
 
     function injectLogo() {
@@ -107,6 +85,34 @@ function buildSnippet(logoRelPath) {
       img.alt = 'Logo';
       img.className = 'tome-site-logo';
       link.prepend(img);
+    }` : `
+    function injectLogo() {}`;
+
+  return `
+<style>
+  :root {
+    --ac: ${accentColor} !important;
+  }${logoStyle}
+</style>
+<script>
+  (function() {
+    var accentColor = ${JSON.stringify(accentColor)};
+    var basePath = ${JSON.stringify(basePath)};
+
+    // P1-fix#3: 用 MutationObserver 替代 setInterval(50ms)，只在变化时修正
+    function applyAccent() {
+      document.documentElement.style.setProperty('--ac', accentColor, 'important');
+    }
+    applyAccent();
+${logoJs}
+
+    // 修正侧边栏顶部链接的 href，从 '/' 改成 basePath
+    function fixSidebarLink() {
+      if (basePath === '/') return;
+      var link = document.querySelector('aside > a[href="/"]');
+      if (link) {
+        link.setAttribute('href', basePath);
+      }
     }
 
     // 单一 MutationObserver 同时处理 accent 颜色修正、logo 注入和侧边栏链接修正
@@ -132,11 +138,12 @@ const htmlFiles = findHtmlFiles(outDir);
 let count = 0;
 for (const file of htmlFiles) {
   let html = readFileSync(file, 'utf-8');
-  if (html.includes('tome-site-logo')) continue;
+  // 已注入过则跳过（用 fixSidebarLink 作为通用标记）
+  if (html.includes('fixSidebarLink')) continue;
   const logoRelPath = getLogoRelPath(file);
   const snippet = buildSnippet(logoRelPath);
   html = html.replace('</head>', snippet + '</head>');
   writeFileSync(file, html, 'utf-8');
   count++;
 }
-console.log('Injected logo into ' + count + ' HTML files.');
+console.log(`Injected into ${count} HTML files (logo: ${hasLogo}).`);
