@@ -9,6 +9,50 @@
 <link rel="stylesheet" href="/getbiji-docs-v3/assets/index-DQ1ixyT1.css">
 <script type="module" src="/getbiji-docs-v3/assets/index-DGfi_ZZs.js"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"语音词库","description":"添加专有名词、人名、术语，让 AI 录音转文字更准确","url":"/recording/vocabulary","isPartOf":{"@type":"WebSite","name":"Get笔记帮助中心"}}</script>
+
+<style>
+  :root {
+    --ac: #333333 !important;
+  }
+</style>
+<script>
+  (function() {
+    var accentColor = "#333333";
+    var basePath = "/getbiji-docs-v3";
+
+    // P1-fix#3: 用 MutationObserver 替代 setInterval(50ms)，只在变化时修正
+    function applyAccent() {
+      document.documentElement.style.setProperty('--ac', accentColor, 'important');
+    }
+    applyAccent();
+
+    function injectLogo() {}
+
+    // 修正侧边栏顶部链接的 href，从 '/' 改成 basePath
+    function fixSidebarLink() {
+      if (basePath === '/') return;
+      var link = document.querySelector('aside > a[href="/"]');
+      if (link) {
+        link.setAttribute('href', basePath);
+      }
+    }
+
+    // 单一 MutationObserver 同时处理 accent 颜色修正、logo 注入和侧边栏链接修正
+    new MutationObserver(function() {
+      applyAccent();
+      injectLogo();
+      fixSidebarLink();
+    }).observe(document.documentElement, { childList: true, subtree: true });
+
+    // 首次尝试注入（DOM 可能已就绪）
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() { injectLogo(); fixSidebarLink(); });
+    } else {
+      injectLogo();
+      fixSidebarLink();
+    }
+  })();
+</script>
 </head>
 <body>
 <div id="tome-root"></div>
