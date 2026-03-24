@@ -1,8 +1,8 @@
 {
   "version": 1,
   "generator": "tome",
-  "site": "Get笔记帮助中心",
-  "totalPages": 42,
+  "site": "Get笔记使用指南",
+  "totalPages": 41,
   "searchEndpoint": "/pagefind/pagefind.js",
   "pages": [
     {
@@ -177,54 +177,6 @@
       "wordCount": 358
     },
     {
-      "id": "developer",
-      "url": "/developer",
-      "title": "开发者",
-      "description": "通过 API 把 Get笔记的知识库能力接入你的应用，支持直接调用、Dify、扣子等多种方式",
-      "headings": [
-        "是什么",
-        "怎么用",
-        "第一步：获取 API 配置信息",
-        "第二步：调用 API",
-        "第三步：选择接入方式",
-        "在 Dify 中使用",
-        "在扣子中使用",
-        "小技巧",
-        "需要帮助？"
-      ],
-      "tags": [],
-      "wordCount": 442
-    },
-    {
-      "id": "developer/skill",
-      "url": "/developer/skill",
-      "title": "Get笔记 Skill",
-      "description": "OpenClaw/小龙虾 Get笔记技能安装使用指南",
-      "headings": [
-        "快速安装",
-        "常见问题",
-        "🐛 Bug 类问题",
-        "1. 笔记删除后直接彻底删除，未进回收站",
-        "2. NAS 上安装 Skill 失败，云服务器正常",
-        "3. 技能装入 Coze 后持续报 403",
-        "4. 安装/配置后 API 返回 pong 或者 503 错误",
-        "💡 日常使用问题",
-        "1. 安装/配置流程不会操作，手机能用吗？",
-        "2. 是否需要会员才能使用",
-        "3. Skill 能读取录音卡内容吗？",
-        "4. Skill 能管理知识库吗？",
-        "5. 能安装到 EasyClaw / Kimi Claw 上吗？",
-        "6. 能否一个 OpenClaw 对接两个账号？",
-        "7. 没有看到官方技能包入口",
-        "8. API Key 安全性",
-        "9. Skill 能精准读取所有笔记数据吗？",
-        "10. Skill 可以看视频总结功能吗？",
-        "官方资源"
-      ],
-      "tags": [],
-      "wordCount": 242
-    },
-    {
       "id": "faq",
       "url": "/faq",
       "title": "常见问题",
@@ -251,6 +203,35 @@
       ],
       "tags": [],
       "wordCount": 173
+    },
+    {
+      "id": "faq/skill",
+      "url": "/faq/skill",
+      "title": "Get笔记 Skill",
+      "description": "OpenClaw/小龙虾 Get笔记技能安装使用指南",
+      "headings": [
+        "快速安装",
+        "常见问题",
+        "🐛 Bug 类问题",
+        "1. 笔记删除后直接彻底删除，未进回收站",
+        "2. NAS 上安装 Skill 失败，云服务器正常",
+        "3. 技能装入 Coze 后持续报 403",
+        "4. 安装/配置后 API 返回 pong 或者 503 错误",
+        "💡 日常使用问题",
+        "1. 安装/配置流程不会操作，手机能用吗？",
+        "2. 是否需要会员才能使用",
+        "3. Skill 能读取录音卡内容吗？",
+        "4. Skill 能管理知识库吗？",
+        "5. 能安装到 EasyClaw / Kimi Claw 上吗？",
+        "6. 能否一个 OpenClaw 对接两个账号？",
+        "7. 没有看到官方技能包入口",
+        "8. API Key 安全性",
+        "9. Skill 能精准读取所有笔记数据吗？",
+        "10. Skill 可以看视频总结功能吗？",
+        "官方资源"
+      ],
+      "tags": [],
+      "wordCount": 242
     },
     {
       "id": "getseed/device",

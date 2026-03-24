@@ -7,53 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/getbiji-docs-v3/assets/index-DGfi_ZZs.js"></script>
+    <script type="module" crossorigin src="/getbiji-docs-v3/assets/index-CZyY9Siq.js"></script>
     <link rel="stylesheet" crossorigin href="/getbiji-docs-v3/assets/index-DQ1ixyT1.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Get笔记帮助中心","description":"Documentation site powered by Tome","potentialAction":{"@type":"SearchAction","query-input":"required name=search_term_string"}}</script>
-
-<style>
-  :root {
-    --ac: #333333 !important;
-  }
-</style>
-<script>
-  (function() {
-    var accentColor = "#333333";
-    var basePath = "/getbiji-docs-v3";
-
-    // P1-fix#3: 用 MutationObserver 替代 setInterval(50ms)，只在变化时修正
-    function applyAccent() {
-      document.documentElement.style.setProperty('--ac', accentColor, 'important');
-    }
-    applyAccent();
-
-    function injectLogo() {}
-
-    // 修正侧边栏顶部链接的 href，从 '/' 改成 basePath
-    function fixSidebarLink() {
-      if (basePath === '/') return;
-      var link = document.querySelector('aside > a[href="/"]');
-      if (link) {
-        link.setAttribute('href', basePath);
-      }
-    }
-
-    // 单一 MutationObserver 同时处理 accent 颜色修正、logo 注入和侧边栏链接修正
-    new MutationObserver(function() {
-      applyAccent();
-      injectLogo();
-      fixSidebarLink();
-    }).observe(document.documentElement, { childList: true, subtree: true });
-
-    // 首次尝试注入（DOM 可能已就绪）
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', function() { injectLogo(); fixSidebarLink(); });
-    } else {
-      injectLogo();
-      fixSidebarLink();
-    }
-  })();
-</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Get笔记使用指南","description":"Documentation site powered by Tome","potentialAction":{"@type":"SearchAction","query-input":"required name=search_term_string"}}</script>
 </head>
   <body>
     <div id="tome-root"></div>

@@ -3,55 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>达人推荐 | Get笔记帮助中心</title>
+<title>达人推荐 | Get笔记使用指南</title>
 <link rel="canonical" href="/getbiji-docs-v3/testimonials">
 <link rel="stylesheet" href="/getbiji-docs-v3/assets/index-DQ1ixyT1.css">
-<script type="module" src="/getbiji-docs-v3/assets/index-DGfi_ZZs.js"></script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"达人推荐","url":"/testimonials","isPartOf":{"@type":"WebSite","name":"Get笔记帮助中心"}}</script>
-
-<style>
-  :root {
-    --ac: #333333 !important;
-  }
-</style>
-<script>
-  (function() {
-    var accentColor = "#333333";
-    var basePath = "/getbiji-docs-v3";
-
-    // P1-fix#3: 用 MutationObserver 替代 setInterval(50ms)，只在变化时修正
-    function applyAccent() {
-      document.documentElement.style.setProperty('--ac', accentColor, 'important');
-    }
-    applyAccent();
-
-    function injectLogo() {}
-
-    // 修正侧边栏顶部链接的 href，从 '/' 改成 basePath
-    function fixSidebarLink() {
-      if (basePath === '/') return;
-      var link = document.querySelector('aside > a[href="/"]');
-      if (link) {
-        link.setAttribute('href', basePath);
-      }
-    }
-
-    // 单一 MutationObserver 同时处理 accent 颜色修正、logo 注入和侧边栏链接修正
-    new MutationObserver(function() {
-      applyAccent();
-      injectLogo();
-      fixSidebarLink();
-    }).observe(document.documentElement, { childList: true, subtree: true });
-
-    // 首次尝试注入（DOM 可能已就绪）
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', function() { injectLogo(); fixSidebarLink(); });
-    } else {
-      injectLogo();
-      fixSidebarLink();
-    }
-  })();
-</script>
+<script type="module" src="/getbiji-docs-v3/assets/index-CZyY9Siq.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"达人推荐","url":"/testimonials","isPartOf":{"@type":"WebSite","name":"Get笔记使用指南"}}</script>
 </head>
 <body>
 <div id="tome-root"></div>

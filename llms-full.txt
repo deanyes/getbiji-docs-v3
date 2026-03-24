@@ -1,4 +1,4 @@
-# Get笔记帮助中心
+# Get笔记使用指南
 
 ---
 
@@ -683,187 +683,96 @@ Get笔记 iOS 完整版本记录。
 
 ---
 
-## 开发者
+## 常见问题
 
-# 开发者
+# 常见问题
 
-Get笔记提供开放 API，让你把知识库的 AI 搜索和召回能力接入自己的应用。不管你是做聊天机器人、内部知识助手，还是搭配 Dify、扣子等平台使用，都可以快速接入。
+遇到问题？先看看这里能不能找到答案。
 
-> 目前 API 处于**免审公测期**，所有接口可能会调整或优化。公测期间免费使用，正式商业化后可能收费。不建议公测期间用于商业产品。
+## 账号相关
 
-## 是什么
+### 支持哪些登录方式？
 
-Get笔记 OpenAPI 提供两个核心能力：
+支持三种方式：**手机号**、**微信**、**Apple ID**。注册后登录同一账号，所有设备的数据会自动同步。
 
-- **知识库搜索**：向知识库提问，AI 会从你的笔记、文件、关注的博主内容中找到答案，支持深度思考模式和流式返回
-- **知识库召回**：根据问题召回最相关的内容片段，返回相似度评分，适合做二次加工
+### 怎么开通会员？
 
-你可以通过以下方式使用：
+打开 App → 点击右上角头像 → 进入「会员中心」→ 选择套餐开通。
 
-| 接入方式 | 适合谁 | 说明 |
-|---------|-------|------|
-| 直接调用 API | 有开发能力的用户 | 最灵活，完全自定义 |
-| Dify 外部知识库 | Dify 用户 | 作为 Dify 的外部知识源 |
-| 扣子插件 | 扣子用户 | 在扣子工作流或 Agent 中调用 |
+### 会员和免费版有什么区别？
 
-## 怎么用
+| | 免费版 | 会员版 |
+|---|-------|-------|
+| 单次录音时长 | 最长 10 分钟 | 最长 60 分钟 |
+| 存储空间 | 30GB | 500GB |
+| 知识库数量 | 最多 10 个 | 不限 |
+| 声纹识别 | 不支持 | 支持 |
+| 语音口令 | 不支持 | 支持 |
+| API 使用 | 不支持 | 支持 |
 
-### 第一步：获取 API 配置信息
+## 录音相关
 
-打开 [Get笔记知识库网页版](https://www.biji.com/subject)，点击顶部的「API 设置」按钮，进入配置页面。
+### 录音突然中断了怎么办？
 
-![知识库网页版顶部导航栏，右侧显示「API 设置」按钮，点击可打开 API 配置页面](/getbiji-docs-v3/images/GYUKbFlMAo83gsxZk2nccbTnn0f.png)
+最常见的原因是你切换到了其他 App，那个 App 抢占了麦克风。解决方法：回到 Get笔记，点「继续录制」即可。
 
-你会看到两个关键参数：
+> 小提示：录音时尽量不要切换到其他需要麦克风的 App（比如微信语音通话）。
 
-- **参数值 1（API Key）**：用于身份验证
-- **参数值 2（知识库 ID）**：指定要查询的知识库
+### 支持哪些语言和方言？
 
-![API 配置页面，显示两个参数值：参数值1为 API Key（用于认证），参数值2为知识库 ID（用于指定查询的知识库），每个参数旁有复制按钮](/getbiji-docs-v3/images/XpT8brRgeolr5txpLhZcXZjqneZ.png)
+支持**普通话**和 **27 种方言**，包括：粤语、四川话、上海话、武汉话、西安话、南京话、杭州话、天津话等。
 
-> 请妥善保管 API Key，不要提交到公开代码仓库。如怀疑泄露，立即重新生成。
+### 录音转文字准确吗？
 
-### 第二步：调用 API
+AI 转写准确率在 **95% 以上**。如果你经常说一些专业术语或生僻词，可以通过[语音词库](/recording/vocabulary)提前添加，AI 就能识别得更准。
 
-**基础信息：**
+### 录音文件很大，同步很慢？
 
-- 接口地址：`https://open-api.biji.com/getnote/openapi`
-- 认证方式：在请求头中添加 `Authorization: Bearer {你的API Key}`
-- 频率限制：每秒 2 次请求（QPS），每天 5000 次
+长时间录音文件确实比较大。建议在 **Wi-Fi 环境**下同步，速度会快很多。
 
-**知识库搜索（获取 AI 回答）：**
+## 知识库相关
 
-```bash
-curl -X POST https://open-api.biji.com/getnote/openapi/knowledge/search \
-  -H "Authorization: Bearer {你的API Key}" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "question": "你的问题",
-    "topic_ids": ["你的知识库ID"],
-    "deep_seek": false,
-    "refs": true
-  }'
-```
+### 知识库能存多少内容？
 
-参数说明：
+- **免费版**：最多 10 个知识库，总共 30GB
+- **会员版**：不限知识库数量，总共 500GB
 
-| 参数 | 类型 | 必填 | 说明 |
-|-----|------|-----|------|
-| question | string | 是 | 要搜索的问题 |
-| topic_ids | string[] | 是 | 知识库 ID 列表（目前支持 1 个） |
-| deep_seek | bool | 是 | 是否开启深度思考 |
-| refs | bool | 否 | 是否返回引用来源，默认 false |
-| history | array | 否 | 对话历史，用于追问 |
+### 上传文件支持什么格式？
 
-流式接口地址为 `/knowledge/search/stream`，返回的 `msg_type` 含义：
+支持以下格式：
 
-| msg_type | 含义 |
-|----------|------|
-| 1 | AI 回答内容 |
-| 3 | 结束标记 [END] |
-| 6 | 处理流程信息 |
-| 21 | 深度思考过程（逐字返回） |
-| 22 | 思考耗时 |
-| 105 | 引用来源数据 |
-| 8 | 风控提醒 |
-| 0 | 错误信息 |
+- **PDF** 文件
+- **Word** 文件（.doc / .docx）
+- **PPT** 文件（.ppt / .pptx）
 
-**知识库召回（获取相关片段）：**
+单个文件最大 **200MB**。
 
-```bash
-curl -X POST https://open-api.biji.com/getnote/openapi/knowledge/search/recall \
-  -H "Authorization: Bearer {你的API Key}" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "question": "你的问题",
-    "topic_ids": ["你的知识库ID"],
-    "top_k": 10
-  }'
-```
+## 数据与安全
 
-返回结果中每条记录包含：`title`（标题）、`content`（内容）、`score`（相似度评分）、`type`（来源类型：FILE / NOTE / BLOGGER）。
+### 我的数据安全吗？
 
-### 第三步：选择接入方式
+所有数据**加密存储**，不会被用于训练 AI 模型。
 
-根据你的需求选择合适的接入方式：
+### 可以导出数据吗？
 
-#### 在 Dify 中使用
+可以。打开[网页版](https://www.biji.com)，支持导出全部笔记为 HTML 文件。
 
-适合已经在用 Dify 搭建 AI 应用的用户。把 Get笔记知识库作为 Dify 的外部知识源。
+## 其他问题
 
-1. 进入 Dify「知识库」标签页，点击**外部知识库 API** → **添加外部知识库 API**
+### 有桌面版吗？
 
-![Dify 知识库页面，左侧标签栏选中「外部知识库 API」，右上角显示蓝色「添加外部知识库 API」按钮](/getbiji-docs-v3/images/QzjpbvqchoLc6ixPA1Cc1tgjnmf.png)
+目前没有桌面客户端。你可以用网页版 [biji.com](https://www.biji.com) 在电脑上使用，体验和 App 基本一致。
 
-2. 填写配置信息：
-   - **名称**：建议填「XXX 的 Get笔记知识库」
-   - **API Endpoint**：`https://open-api.biji.com/getnote/openapi/knowledge/dify`
-   - **API Key**：粘贴你的参数值 1
+### 怎么联系客服？
 
-![Dify 添加外部知识库 API 表单，包含名称、API Endpoint 和 API Key 三个输入框，底部有取消和保存按钮](/getbiji-docs-v3/images/V3eUbiVQqo3tZaxKvA5cDlFinHc.png)
+两种方式：
 
-3. 新建外部知识库，选择刚添加的 API，在**外部知识库 ID** 中粘贴参数值 2
+1. **App 内**：点击右上角头像 → 「帮助与反馈」
+2. **邮箱**：发送邮件到 [support@biji.com](mailto:support@biji.com)
 
-![Dify 创建外部知识库页面，下拉菜单选择已添加的外部知识库 API，下方输入框填写外部知识库 ID](/getbiji-docs-v3/images/BvhLb0916o4UAAxH40JckpIOnQf.png)
+---
 
-4. 测试通过后，就可以在 Dify 的 Agent 中使用这个知识库了
-
-![Dify 知识库召回测试页面，左侧输入测试问题，右侧显示召回结果和相关内容片段](/getbiji-docs-v3/images/REmbbLe01oajZixUmaicMyCqn3b.png)
-
-#### 在扣子中使用
-
-Get笔记知识库已上架[扣子插件商店](https://www.coze.cn/store/agent?cate_type=recommend)，搜索「Get笔记知识库」即可找到。目前提供召回能力，可配合模型做进一步处理。
-
-![扣子插件商店搜索结果页面，显示「Get笔记知识库」插件卡片，包含插件图标、名称和简介](/getbiji-docs-v3/images/Qg8Fb4uyCoHVa5xV7ZnchC5an4d.png)
-
-**方式一：在工作流中使用**
-
-1. 进入[扣子工作流](https://www.coze.cn/work_flow)，创建新工作流，添加「开始」节点并设置输入参数（如 Question）
-
-![扣子工作流编辑器，左侧为「开始」节点配置面板，添加了一个名为 Question 的字符串输入参数](/getbiji-docs-v3/images/C5CTbGoPdotA2CxLIQgcTOXXnQg.png)
-
-2. 添加节点，搜索「Get笔记知识库」插件，选择 **getnote_knowledge_recall** 工具
-
-![扣子工作流添加节点面板，搜索框输入「Get笔记知识库」，搜索结果显示两个工具，第二个为 getnote_knowledge_recall](/getbiji-docs-v3/images/PNPkbYhypoRkpUx3sL6cf1bhnid.png)
-
-3. 配置参数：**question** 关联开始节点的输入、**Authorization** 填参数值 1、**topic_id** 填参数值 2
-
-![扣子工作流 getnote_knowledge_recall 节点配置面板，显示 question、Authorization、topic_id、top_k 等参数输入框](/getbiji-docs-v3/images/QgFBbngvSoXEYUx2Ff6cF8LynSb.png)
-
-4. 后续可接模型节点或输出节点，完成工作流搭建
-
-![扣子完整工作流示例，从开始节点到 Get笔记知识库召回节点，再到大模型处理节点，最后到结束输出节点](/getbiji-docs-v3/images/DM80b3b9SoXBi7x7TSqcB7EUnnc.png)
-
-**方式二：在 Agent 中直接使用插件**
-
-1. 新建 Agent，在「编排」标签页点击「添加插件」
-
-![扣子 Agent 编排页面，左侧显示编排配置区域，技能区域有「添加插件」按钮](/getbiji-docs-v3/images/K5A8bmw0KowEPLxuiWUcwGI3nhc.png)
-
-2. 搜索「Get笔记知识库」，选择 **getnote_knowledge_recall** 工具
-
-![扣子插件搜索弹窗，输入「Get笔记知识库」后显示搜索结果，列出可用的知识库工具](/getbiji-docs-v3/images/TpxsbGxIGoG4GAx3p2SchcOvn6r.png)
-
-3. 配置 **Authorization**（参数值 1）和 **topic_id**（参数值 2，需加 Bearer 前缀）
-
-![扣子 Agent 插件参数配置面板，显示 Authorization 和 topic_id 两个输入框，需要填入对应的 API 参数值](/getbiji-docs-v3/images/IBvRbay9QoXsxXxXenmcKy6unEg.png)
-
-> 填完两个参数后，**必须把参数开关切到关闭状态**（点击滑块按钮），否则每次调用时会要求用户手动输入。
-
-![扣子 Agent 插件参数配置完成状态，Authorization 和 topic_id 旁边的开关滑块已切换到关闭（灰色）状态](/getbiji-docs-v3/images/PQkCbP42XoROCuxRUJJc7EWTnhg.png)
-
-## 小技巧
-
-- **先用网页版测试**：在知识库网页版直接提问，确认效果满意后再接入 API
-- **合理设置 top_k**：召回接口默认返回 10 条结果，如果你的知识库内容少，可以调小这个值减少噪音
-- **善用对话历史**：搜索接口支持 `history` 参数，传入之前的对话记录可以实现追问效果
-- **深度思考按需开启**：`deep_seek` 开启后回答更深入但更慢，简单查询可以关闭提速
-
-## 需要帮助？
-
-扫码加入官方交流群，与其他开发者交流：
-
-![Get笔记官方交流群二维码，微信扫码即可加入](/getbiji-docs-v3/images/NvqGbWNRxo44nxx9UbBclhsZnEb.jpg)
+没有找到你的问题？试试 App 内的「帮助与反馈」，客服会在 24 小时内回复。
 
 ---
 
@@ -985,99 +894,6 @@ API Key 只会在生成时显示一次，请妥善保管：
 | GitHub（OpenClaw） | https://github.com/iswalle/getnote-openclaw |
 | GitHub（MCP） | https://github.com/iswalle/getnote-mcp |
 | API Key 管理 | https://www.biji.com/openapi |
-
----
-
-## 常见问题
-
-# 常见问题
-
-遇到问题？先看看这里能不能找到答案。
-
-## 账号相关
-
-### 支持哪些登录方式？
-
-支持三种方式：**手机号**、**微信**、**Apple ID**。注册后登录同一账号，所有设备的数据会自动同步。
-
-### 怎么开通会员？
-
-打开 App → 点击右上角头像 → 进入「会员中心」→ 选择套餐开通。
-
-### 会员和免费版有什么区别？
-
-| | 免费版 | 会员版 |
-|---|-------|-------|
-| 单次录音时长 | 最长 10 分钟 | 最长 60 分钟 |
-| 存储空间 | 30GB | 500GB |
-| 知识库数量 | 最多 10 个 | 不限 |
-| 声纹识别 | 不支持 | 支持 |
-| 语音口令 | 不支持 | 支持 |
-| API 使用 | 不支持 | 支持 |
-
-## 录音相关
-
-### 录音突然中断了怎么办？
-
-最常见的原因是你切换到了其他 App，那个 App 抢占了麦克风。解决方法：回到 Get笔记，点「继续录制」即可。
-
-> 小提示：录音时尽量不要切换到其他需要麦克风的 App（比如微信语音通话）。
-
-### 支持哪些语言和方言？
-
-支持**普通话**和 **27 种方言**，包括：粤语、四川话、上海话、武汉话、西安话、南京话、杭州话、天津话等。
-
-### 录音转文字准确吗？
-
-AI 转写准确率在 **95% 以上**。如果你经常说一些专业术语或生僻词，可以通过[语音词库](/recording/vocabulary)提前添加，AI 就能识别得更准。
-
-### 录音文件很大，同步很慢？
-
-长时间录音文件确实比较大。建议在 **Wi-Fi 环境**下同步，速度会快很多。
-
-## 知识库相关
-
-### 知识库能存多少内容？
-
-- **免费版**：最多 10 个知识库，总共 30GB
-- **会员版**：不限知识库数量，总共 500GB
-
-### 上传文件支持什么格式？
-
-支持以下格式：
-
-- **PDF** 文件
-- **Word** 文件（.doc / .docx）
-- **PPT** 文件（.ppt / .pptx）
-
-单个文件最大 **200MB**。
-
-## 数据与安全
-
-### 我的数据安全吗？
-
-所有数据**加密存储**，不会被用于训练 AI 模型。
-
-### 可以导出数据吗？
-
-可以。打开[网页版](https://www.biji.com)，支持导出全部笔记为 HTML 文件。
-
-## 其他问题
-
-### 有桌面版吗？
-
-目前没有桌面客户端。你可以用网页版 [biji.com](https://www.biji.com) 在电脑上使用，体验和 App 基本一致。
-
-### 怎么联系客服？
-
-两种方式：
-
-1. **App 内**：点击右上角头像 → 「帮助与反馈」
-2. **邮箱**：发送邮件到 [support@biji.com](mailto:support@biji.com)
-
----
-
-没有找到你的问题？试试 App 内的「帮助与反馈」，客服会在 24 小时内回复。
 
 ---
 
